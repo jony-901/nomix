@@ -1,0 +1,16 @@
+{
+  "name": "nomix-bot",
+  "version": "1.0.0",
+  "description": "Worldwide Country Random Name Generator Web App",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "echo 'Build complete'"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
