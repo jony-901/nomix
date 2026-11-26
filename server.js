@@ -132,10 +132,17 @@ function renderCountryScreen(countryCode, gender = 'all', count = 5) {
   if (!country) return { text: '❌ দেশ খুঁজে পাওয়া যায়নি!', markup: buildCountryKeyboard() };
 
   const names = generateNames(country.pool, count, gender);
-  const namesText = names.map(n => `• <b>${n}</b>`).join('\n');
+  // Telegram native 1-tap copy: wrap in <code> tag
+  const namesText = names.map(n => {
+    const parts = n.split(' ');
+    const icon = parts[0];
+    const rawName = parts.slice(1).join(' ');
+    return `• ${icon} <code>${rawName}</code>`;
+  }).join('\n');
+
   const genderLabel = gender === 'all' ? 'উভয় (Both)' : (gender === 'male' ? 'পুরুষ (Male)' : 'মহিলা (Female)');
 
-  const text = `${country.flag} <b>${country.name} — নাম জেনারেটর</b>\n━━━━━━━━━━━━━━━━━━━━\n🎯 <b>ফিল্টার:</b> ${genderLabel} | সংখ্যা: ${count} টি\n\n${namesText}\n\n<i>💡 নিচের বাটনে চাপ দিয়ে আনলিমিটেড নতুন নাম পান:</i>`;
+  const text = `${country.flag} <b>${country.name} — নাম জেনারেটর</b>\n━━━━━━━━━━━━━━━━━━━━\n🎯 <b>ফিল্টার:</b> ${genderLabel} | সংখ্যা: ${count} টি\n\n${namesText}\n\n<i>📋 যেকোনো নামের ওপর ১-ট্যাপ করলেই কপি হয়ে যাবে!</i>\n<i>💡 নিচের বাটনে চাপ দিয়ে আনলিমিটেড নতুন নাম পান:</i>`;
 
   const markup = {
     inline_keyboard: [

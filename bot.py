@@ -125,7 +125,8 @@ def render_country_screen(country_code: str, gender: str = "all", count: int = 5
         return "❌ দেশ খুঁজে পাওয়া যায়নি!", build_country_list_keyboard()
 
     names = generate_names(country["pool"], count=count, gender=gender)
-    names_text = "\n".join([f"• <b>{html.escape(n)}</b>" for n in names])
+    # Wrap in <code> so 1-tap/click in Telegram copies name immediately!
+    names_text = "\n".join([f"• {n.split(' ')[0]} <code>{html.escape(' '.join(n.split(' ')[1:]))}</code>" for n in names])
 
     gender_label = "সব (উভয়)" if gender == "all" else ("পুরুষ (Male)" if gender == "male" else "মহিলা (Female)")
 
@@ -134,7 +135,8 @@ def render_country_screen(country_code: str, gender: str = "all", count: int = 5
         f"━━━━━━━━━━━━━━━━━━━━\n"
         f"🎯 <b>ফিল্টার:</b> {gender_label} | সংখ্যা: {count} টি\n\n"
         f"{names_text}\n\n"
-        f"<i>💡 নিচের 'Generate Again' বাটনে ক্লিক করে আনলিমিটেড নতুন নতুন নাম পান!</i>"
+        f"<i>📋 যেকোনো নামের ওপর ট্যাপ/ক্লিক করলেই কপি হয়ে যাবে!</i>\n"
+        f"<i>💡 নতুন নাম পেতে 'Generate Again' বাটনে চাপ দিন:</i>"
     )
     return msg, build_generator_keyboard(country_code, gender)
 
