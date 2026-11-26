@@ -18,6 +18,10 @@ from countries_data import COUNTRIES, Country, get_country_by_code, search_count
 from name_generator import generate_names
 from telegram_client import TelegramBot
 
+# Configuration Constants (Permanently Configured)
+DEFAULT_BOT_TOKEN = "9197793802:AAE1YqPe3LuoSvRgqh9dIlq1EDG7oI8WZ-4"
+ADMIN_TELEGRAM_ID = 7457103363
+
 # Number of countries per page
 PAGE_SIZE = 6
 
@@ -274,22 +278,9 @@ def run_bot(token: str):
 
 
 if __name__ == "__main__":
-    token = os.environ.get("TELEGRAM_BOT_TOKEN")
+    token = os.environ.get("TELEGRAM_BOT_TOKEN") or DEFAULT_BOT_TOKEN
     if len(sys.argv) > 1:
         token = sys.argv[1]
-
-    if not token:
-        print("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
-        print("🤖 WORLDWIDE COUNTRY RANDOM NAME GENERATOR TELEGRAM BOT")
-        print("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
-        print("টেলিগ্রাম বট টোকেন দিন:")
-        print("কমান্ড লাইন থেকে চালাতে: python3 bot.py <YOUR_BOT_TOKEN>")
-        print("অথবা এনভায়রনমেন্ট ভেরিয়েবলে: export TELEGRAM_BOT_TOKEN='...'")
-        print("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
-        try:
-            token = input("Enter Telegram Bot Token: ").strip()
-        except (KeyboardInterrupt, EOFError):
-            sys.exit(0)
 
     if token:
         run_bot(token)

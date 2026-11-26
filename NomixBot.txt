@@ -1,1 +1,8 @@
-9197793802:AAE1YqPe3LuoSvRgqh9dIlq1EDG7oI8WZ-4
+# NomixBot Permanent Credentials
+
+- **Bot API Token:** `9197793802:AAE1YqPe3LuoSvRgqh9dIlq1EDG7oI8WZ-4`
+- **Admin Telegram ID:** `7457103363`
+- **Direct Run:**
+  ```bash
+  python3 bot.py
+  ```
