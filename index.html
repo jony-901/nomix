@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Worldwide Country Random Name Generator & Fast Workflow</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Hind+Siliguri:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app-container">
+    <!-- Header -->
+    <header class="app-header">
+      <div class="badge">🌍 Global Database • 196+ Countries</div>
+      <h1>World Name Generator</h1>
+      <p class="subtitle">বিশ্বের যেকোনো দেশের অথেন্টিক নাম জেনারেট করুন — রিসেন্ট হিস্ট্রি ও উইশলিস্ট সহ ১-ক্লিকে ফাস্ট ওয়ার্কফ্লো</p>
+    </header>
+
+    <!-- Quick Access Hub (Recents & Wishlist) -->
+    <section class="quick-hub-card">
+      <!-- Recents Bar -->
+      <div class="quick-row">
+        <div class="quick-title">
+          <span class="icon">🕒</span> <strong>রিসেন্ট দেশসমূহ (Recents):</strong>
+          <span class="sub-hint">লাস্ট যেসব কান্ট্রি ব্যবহার করেছেন, ১-ক্লিকেই ইনস্ট্যান্ট জেনারেট করুন</span>
+        </div>
+        <div id="recentChips" class="chips-container">
+          <!-- Dynamically populated chips -->
+          <span class="empty-hint">এখনো কোনো রিসেন্ট দেশ নেই (একটি দেশ সিলেক্ট করলেই এখানে সেভ হয়ে যাবে)</span>
+        </div>
+      </div>
+
+      <!-- Wishlist Bar -->
+      <div class="quick-row wishlist-row">
+        <div class="quick-title">
+          <div class="title-left">
+            <span class="icon">⭐</span> <strong>উইশলিস্ট / বুকমার্ক (Wishlist):</strong>
+            <span class="sub-hint">যেসব দেশ আপনার বারবার লাগে সেভ করে রাখুন</span>
+          </div>
+          <button id="batchWishlistBtn" class="batch-order-btn" title="উইশলিস্টের সব দেশ থেকে একসাথে নাম তুলুন" style="display:none;">
+            ⚡ উইশলিস্টের সব দেশ একসাথে জেনারেট করুন
+          </button>
+        </div>
+        <div id="wishlistChips" class="chips-container">
+          <!-- Dynamically populated chips -->
+          <span class="empty-hint">উইশলিস্ট খালি। নিচের দেশের কার্ড থেকে ⭐ বাটনে চাপ দিয়ে অ্যাড করুন।</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Main Card -->
+    <main class="main-card">
+      <!-- Search & Filters -->
+      <section class="controls-section">
+        <div class="search-box-wrapper">
+          <span class="search-icon">🔍</span>
+          <input 
+            type="text" 
+            id="countrySearch" 
+            placeholder="Search country (e.g. Bangladesh, BD, USA, Japan, Germany)..." 
+            autocomplete="off"
+            spellcheck="false"
+          >
+          <button id="clearSearchBtn" class="clear-btn" title="Clear search" style="display: none;">✕</button>
+        </div>
+
+        <div class="filter-bar">
+          <div class="filter-info">
+            <span id="resultsCount">Showing 6 countries</span>
+          </div>
+          <button id="resetViewBtn" class="pill-btn active">⭐ Featured (Top 6)</button>
+          <button id="allCountriesBtn" class="pill-btn">🌐 All Countries (196)</button>
+        </div>
+      </section>
+
+      <!-- Country Cards Grid -->
+      <section class="country-grid-section">
+        <div id="countryGrid" class="country-grid">
+          <!-- Dynamically populated -->
+        </div>
+
+        <!-- Pagination Controls -->
+        <div id="paginationBar" class="pagination-bar">
+          <button id="prevPageBtn" class="nav-btn" disabled>⬅️ Previous</button>
+          <span id="pageIndicator" class="page-indicator">Page 1 / 33</span>
+          <button id="nextPageBtn" class="nav-btn">Next ➡️</button>
+        </div>
+      </section>
+
+      <!-- Active Country Generator Panel (Modal / In-place) -->
+      <section id="generatorSection" class="generator-section" style="display: none;">
+        <div class="generator-header">
+          <div class="country-info-pill">
+            <span id="genFlag" class="gen-flag">🇧🇩</span>
+            <div>
+              <div class="name-with-wishlist">
+                <h2 id="genCountryName">Bangladesh</h2>
+                <button id="toggleWishlistBtn" class="wishlist-toggle-icon" title="Toggle Wishlist">⭐ Wishlist</button>
+              </div>
+              <span id="genSubText" class="gen-sub">Authentic Names</span>
+            </div>
+          </div>
+          <button id="closeGenBtn" class="icon-close-btn" title="Close">✕</button>
+        </div>
+
+        <!-- Options Bar -->
+        <div class="options-bar">
+          <div class="control-group">
+            <span class="control-label">জেন্ডার (Gender):</span>
+            <div class="segmented-control">
+              <button class="seg-btn active" data-gender="all">👥 Both</button>
+              <button class="seg-btn" data-gender="male">👨 Male</button>
+              <button class="seg-btn" data-gender="female">👩 Female</button>
+            </div>
+          </div>
+
+          <div class="control-group">
+            <span class="control-label">কতগুলো নাম চান (Quantity):</span>
+            <div class="quantity-pills">
+              <button class="qty-btn" data-qty="1">1 টি</button>
+              <button class="qty-btn active" data-qty="5">5 টি</button>
+              <button class="qty-btn" data-qty="10">10 টি</button>
+              <button class="qty-btn" data-qty="20">20 টি</button>
+              <button class="qty-btn" data-qty="50">50 টি</button>
+              <div class="custom-qty-wrap">
+                <input type="number" id="customQtyInput" min="1" max="100" placeholder="Custom" title="কাস্টম সংখ্যা লিখুন (১-১০০)">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Action Button -->
+        <div class="action-buttons-wrap">
+          <button id="generateBtn" class="primary-gen-btn">
+            <span class="btn-icon">⚡</span> Generate Names
+          </button>
+          <button id="copyAllBtn" class="secondary-btn" title="Copy all names">
+            📋 Copy All
+          </button>
+        </div>
+
+        <!-- Result Box -->
+        <div class="results-container">
+          <div class="results-header">
+            <span id="resultsCountNotice">Generated Results</span>
+            <span id="copyNotice" class="copy-notice" style="display: none;">Copied to clipboard! ✓</span>
+          </div>
+          <ul id="nameResultsList" class="name-results-list">
+            <!-- Dynamic names -->
+          </ul>
+        </div>
+      </section>
+
+      <!-- Batch Multi-Country Results Panel -->
+      <section id="batchResultsSection" class="generator-section batch-section" style="display: none;">
+        <div class="generator-header">
+          <div class="country-info-pill">
+            <span class="gen-flag">📦</span>
+            <div>
+              <h2>উইশলিস্ট মাল্টি-কান্ট্রি রেজাল্ট</h2>
+              <span class="gen-sub">আপনার উইশলিস্টের সব দেশ থেকে একসাথে নাম তৈরি হয়েছে</span>
+            </div>
+          </div>
+          <button id="closeBatchBtn" class="icon-close-btn" title="Close">✕</button>
+        </div>
+
+        <div class="action-buttons-wrap">
+          <button id="batchRegenBtn" class="primary-gen-btn">
+            🔄 Regenerate All
+          </button>
+          <button id="copyAllBatchBtn" class="secondary-btn">
+            📋 Copy All Countries Names
+          </button>
+        </div>
+
+        <div id="batchContainer" class="batch-results-wrapper">
+          <!-- Dynamic batch country sections -->
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="app-footer">
+      <p>Worldwide Random Identity & Cultural Name Generator • Hostinger Ready • Instant Client-Side</p>
+    </footer>
+  </div>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

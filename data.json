@@ -1,0 +1,5596 @@
+{
+  "countries": [
+    {
+      "code": "AF",
+      "name": "Afghanistan",
+      "flag": "🇦🇫",
+      "pool": "persian_afghan",
+      "aliases": [
+        "afg"
+      ]
+    },
+    {
+      "code": "AL",
+      "name": "Albania",
+      "flag": "🇦🇱",
+      "pool": "albanian",
+      "aliases": [
+        "alb"
+      ]
+    },
+    {
+      "code": "DZ",
+      "name": "Algeria",
+      "flag": "🇩🇿",
+      "pool": "maghreb_arabic",
+      "aliases": [
+        "dza"
+      ]
+    },
+    {
+      "code": "AD",
+      "name": "Andorra",
+      "flag": "🇦🇩",
+      "pool": "iberian_spanish",
+      "aliases": [
+        "and"
+      ]
+    },
+    {
+      "code": "AO",
+      "name": "Angola",
+      "flag": "🇦🇴",
+      "pool": "lusophone_african",
+      "aliases": [
+        "ago"
+      ]
+    },
+    {
+      "code": "AG",
+      "name": "Antigua and Barbuda",
+      "flag": "🇦🇬",
+      "pool": "caribbean_anglo",
+      "aliases": [
+        "antigua"
+      ]
+    },
+    {
+      "code": "AR",
+      "name": "Argentina",
+      "flag": "🇦🇷",
+      "pool": "hispanic_latam",
+      "aliases": [
+        "arg"
+      ]
+    },
+    {
+      "code": "AM",
+      "name": "Armenia",
+      "flag": "🇦🇲",
+      "pool": "armenian",
+      "aliases": [
+        "arm"
+      ]
+    },
+    {
+      "code": "AU",
+      "name": "Australia",
+      "flag": "🇦🇺",
+      "pool": "anglo_western",
+      "aliases": [
+        "aus",
+        "aussie"
+      ]
+    },
+    {
+      "code": "AT",
+      "name": "Austria",
+      "flag": "🇦🇹",
+      "pool": "germanic",
+      "aliases": [
+        "aut"
+      ]
+    },
+    {
+      "code": "AZ",
+      "name": "Azerbaijan",
+      "flag": "🇦🇿",
+      "pool": "turkic_caucasus",
+      "aliases": [
+        "aze"
+      ]
+    },
+    {
+      "code": "BS",
+      "name": "Bahamas",
+      "flag": "🇧🇸",
+      "pool": "caribbean_anglo",
+      "aliases": [
+        "bhs"
+      ]
+    },
+    {
+      "code": "BH",
+      "name": "Bahrain",
+      "flag": "🇧🇭",
+      "pool": "gulf_arabic",
+      "aliases": [
+        "bhr"
+      ]
+    },
+    {
+      "code": "BD",
+      "name": "Bangladesh",
+      "flag": "🇧🇩",
+      "pool": "bangladeshi",
+      "aliases": [
+        "bd",
+        "bangla",
+        "bgd"
+      ]
+    },
+    {
+      "code": "BB",
+      "name": "Barbados",
+      "flag": "🇧🇧",
+      "pool": "caribbean_anglo",
+      "aliases": [
+        "brb"
+      ]
+    },
+    {
+      "code": "BY",
+      "name": "Belarus",
+      "flag": "🇧🇾",
+      "pool": "east_slavic",
+      "aliases": [
+        "blr"
+      ]
+    },
+    {
+      "code": "BE",
+      "name": "Belgium",
+      "flag": "🇧🇪",
+      "pool": "benelux",
+      "aliases": [
+        "bel"
+      ]
+    },
+    {
+      "code": "BZ",
+      "name": "Belize",
+      "flag": "🇧🇿",
+      "pool": "hispanic_latam",
+      "aliases": [
+        "blz"
+      ]
+    },
+    {
+      "code": "BJ",
+      "name": "Benin",
+      "flag": "🇧🇯",
+      "pool": "west_african_franco",
+      "aliases": [
+        "ben"
+      ]
+    },
+    {
+      "code": "BT",
+      "name": "Bhutan",
+      "flag": "🇧🇹",
+      "pool": "himalayan",
+      "aliases": [
+        "btn"
+      ]
+    },
+    {
+      "code": "BO",
+      "name": "Bolivia",
+      "flag": "🇧🇴",
+      "pool": "hispanic_latam",
+      "aliases": [
+        "bol"
+      ]
+    },
+    {
+      "code": "BA",
+      "name": "Bosnia and Herzegovina",
+      "flag": "🇧🇦",
+      "pool": "south_slavic",
+      "aliases": [
+        "bosnia",
+        "bih"
+      ]
+    },
+    {
+      "code": "BW",
+      "name": "Botswana",
+      "flag": "🇧🇼",
+      "pool": "southern_african",
+      "aliases": [
+        "bwa"
+      ]
+    },
+    {
+      "code": "BR",
+      "name": "Brazil",
+      "flag": "🇧🇷",
+      "pool": "brazilian",
+      "aliases": [
+        "bra",
+        "brasil"
+      ]
+    },
+    {
+      "code": "BN",
+      "name": "Brunei",
+      "flag": "🇧🇳",
+      "pool": "malay",
+      "aliases": [
+        "brn"
+      ]
+    },
+    {
+      "code": "BG",
+      "name": "Bulgaria",
+      "flag": "🇧🇬",
+      "pool": "south_slavic",
+      "aliases": [
+        "bgr"
+      ]
+    },
+    {
+      "code": "BF",
+      "name": "Burkina Faso",
+      "flag": "🇧🇫",
+      "pool": "west_african_franco",
+      "aliases": [
+        "bfa"
+      ]
+    },
+    {
+      "code": "BI",
+      "name": "Burundi",
+      "flag": "🇧🇮",
+      "pool": "east_african",
+      "aliases": [
+        "bdi"
+      ]
+    },
+    {
+      "code": "CV",
+      "name": "Cabo Verde",
+      "flag": "🇨🇻",
+      "pool": "lusophone_african",
+      "aliases": [
+        "cape verde",
+        "cpv"
+      ]
+    },
+    {
+      "code": "KH",
+      "name": "Cambodia",
+      "flag": "🇰🇭",
+      "pool": "southeast_asian_khmer",
+      "aliases": [
+        "khm"
+      ]
+    },
+    {
+      "code": "CM",
+      "name": "Cameroon",
+      "flag": "🇨🇲",
+      "pool": "west_african_franco",
+      "aliases": [
+        "cmr"
+      ]
+    },
+    {
+      "code": "CA",
+      "name": "Canada",
+      "flag": "🇨🇦",
+      "pool": "anglo_western",
+      "aliases": [
+        "can"
+      ]
+    },
+    {
+      "code": "CF",
+      "name": "Central African Republic",
+      "flag": "🇨🇫",
+      "pool": "west_african_franco",
+      "aliases": [
+        "car",
+        "caf"
+      ]
+    },
+    {
+      "code": "TD",
+      "name": "Chad",
+      "flag": "🇹🇩",
+      "pool": "sahel_african",
+      "aliases": [
+        "tcd"
+      ]
+    },
+    {
+      "code": "CL",
+      "name": "Chile",
+      "flag": "🇨🇱",
+      "pool": "hispanic_latam",
+      "aliases": [
+        "chl"
+      ]
+    },
+    {
+      "code": "CN",
+      "name": "China",
+      "flag": "🇨🇳",
+      "pool": "chinese",
+      "aliases": [
+        "chn",
+        "prc"
+      ]
+    },
+    {
+      "code": "CO",
+      "name": "Colombia",
+      "flag": "🇨🇴",
+      "pool": "hispanic_latam",
+      "aliases": [
+        "col"
+      ]
+    },
+    {
+      "code": "KM",
+      "name": "Comoros",
+      "flag": "🇰🇲",
+      "pool": "east_african",
+      "aliases": [
+        "com"
+      ]
+    },
+    {
+      "code": "CG",
+      "name": "Congo",
+      "flag": "🇨🇬",
+      "pool": "west_african_franco",
+      "aliases": [
+        "republic of congo",
+        "cog"
+      ]
+    },
+    {
+      "code": "CD",
+      "name": "Congo (DRC)",
+      "flag": "🇨🇩",
+      "pool": "west_african_franco",
+      "aliases": [
+        "drc",
+        "dr congo",
+        "cod"
+      ]
+    },
+    {
+      "code": "CR",
+      "name": "Costa Rica",
+      "flag": "🇨🇷",
+      "pool": "hispanic_latam",
+      "aliases": [
+        "cri"
+      ]
+    },
+    {
+      "code": "CI",
+      "name": "Côte d'Ivoire",
+      "flag": "🇨🇮",
+      "pool": "west_african_franco",
+      "aliases": [
+        "ivory coast",
+        "civ"
+      ]
+    },
+    {
+      "code": "HR",
+      "name": "Croatia",
+      "flag": "🇭🇷",
+      "pool": "south_slavic",
+      "aliases": [
+        "hrv"
+      ]
+    },
+    {
+      "code": "CU",
+      "name": "Cuba",
+      "flag": "🇨🇺",
+      "pool": "hispanic_latam",
+      "aliases": [
+        "cub"
+      ]
+    },
+    {
+      "code": "CY",
+      "name": "Cyprus",
+      "flag": "🇨🇾",
+      "pool": "greek",
+      "aliases": [
+        "cyp"
+      ]
+    },
+    {
+      "code": "CZ",
+      "name": "Czechia",
+      "flag": "🇨🇿",
+      "pool": "west_slavic",
+      "aliases": [
+        "czech republic",
+        "cze"
+      ]
+    },
+    {
+      "code": "DK",
+      "name": "Denmark",
+      "flag": "🇩🇰",
+      "pool": "nordic",
+      "aliases": [
+        "dnk"
+      ]
+    },
+    {
+      "code": "DJ",
+      "name": "Djibouti",
+      "flag": "🇩🇯",
+      "pool": "horn_african",
+      "aliases": [
+        "dji"
+      ]
+    },
+    {
+      "code": "DM",
+      "name": "Dominica",
+      "flag": "🇩🇲",
+      "pool": "caribbean_anglo",
+      "aliases": [
+        "dma"
+      ]
+    },
+    {
+      "code": "DO",
+      "name": "Dominican Republic",
+      "flag": "🇩🇴",
+      "pool": "hispanic_latam",
+      "aliases": [
+        "dom"
+      ]
+    },
+    {
+      "code": "EC",
+      "name": "Ecuador",
+      "flag": "🇪🇨",
+      "pool": "hispanic_latam",
+      "aliases": [
+        "ecu"
+      ]
+    },
+    {
+      "code": "EG",
+      "name": "Egypt",
+      "flag": "🇪🇬",
+      "pool": "egyptian_arabic",
+      "aliases": [
+        "egy"
+      ]
+    },
+    {
+      "code": "SV",
+      "name": "El Salvador",
+      "flag": "🇸🇻",
+      "pool": "hispanic_latam",
+      "aliases": [
+        "slv"
+      ]
+    },
+    {
+      "code": "GQ",
+      "name": "Equatorial Guinea",
+      "flag": "🇬🇶",
+      "pool": "hispanic_latam",
+      "aliases": [
+        "gnq"
+      ]
+    },
+    {
+      "code": "ER",
+      "name": "Eritrea",
+      "flag": "🇪🇷",
+      "pool": "horn_african",
+      "aliases": [
+        "eri"
+      ]
+    },
+    {
+      "code": "EE",
+      "name": "Estonia",
+      "flag": "🇪🇪",
+      "pool": "baltic_finnic",
+      "aliases": [
+        "est"
+      ]
+    },
+    {
+      "code": "SZ",
+      "name": "Eswatini",
+      "flag": "🇸🇿",
+      "pool": "southern_african",
+      "aliases": [
+        "swaziland",
+        "swz"
+      ]
+    },
+    {
+      "code": "ET",
+      "name": "Ethiopia",
+      "flag": "🇪🇹",
+      "pool": "horn_african",
+      "aliases": [
+        "eth"
+      ]
+    },
+    {
+      "code": "FJ",
+      "name": "Fiji",
+      "flag": "🇫🇯",
+      "pool": "pacific_polynesian",
+      "aliases": [
+        "fji"
+      ]
+    },
+    {
+      "code": "FI",
+      "name": "Finland",
+      "flag": "🇫🇮",
+      "pool": "finnish",
+      "aliases": [
+        "fin"
+      ]
+    },
+    {
+      "code": "FR",
+      "name": "France",
+      "flag": "🇫🇷",
+      "pool": "french",
+      "aliases": [
+        "fra"
+      ]
+    },
+    {
+      "code": "GA",
+      "name": "Gabon",
+      "flag": "🇬🇦",
+      "pool": "west_african_franco",
+      "aliases": [
+        "gab"
+      ]
+    },
+    {
+      "code": "GM",
+      "name": "Gambia",
+      "flag": "🇬🇲",
+      "pool": "west_african_anglo",
+      "aliases": [
+        "gmb"
+      ]
+    },
+    {
+      "code": "GE",
+      "name": "Georgia",
+      "flag": "🇬🇪",
+      "pool": "georgian",
+      "aliases": [
+        "geo"
+      ]
+    },
+    {
+      "code": "DE",
+      "name": "Germany",
+      "flag": "🇩🇪",
+      "pool": "germanic",
+      "aliases": [
+        "deu",
+        "ger",
+        "deutschland"
+      ]
+    },
+    {
+      "code": "GH",
+      "name": "Ghana",
+      "flag": "🇬🇭",
+      "pool": "west_african_anglo",
+      "aliases": [
+        "gha"
+      ]
+    },
+    {
+      "code": "GR",
+      "name": "Greece",
+      "flag": "🇬🇷",
+      "pool": "greek",
+      "aliases": [
+        "grc"
+      ]
+    },
+    {
+      "code": "GD",
+      "name": "Grenada",
+      "flag": "🇬🇩",
+      "pool": "caribbean_anglo",
+      "aliases": [
+        "grd"
+      ]
+    },
+    {
+      "code": "GT",
+      "name": "Guatemala",
+      "flag": "🇬🇹",
+      "pool": "hispanic_latam",
+      "aliases": [
+        "gtm"
+      ]
+    },
+    {
+      "code": "GN",
+      "name": "Guinea",
+      "flag": "🇬🇳",
+      "pool": "west_african_franco",
+      "aliases": [
+        "gin"
+      ]
+    },
+    {
+      "code": "GW",
+      "name": "Guinea-Bissau",
+      "flag": "🇬🇼",
+      "pool": "lusophone_african",
+      "aliases": [
+        "gnb"
+      ]
+    },
+    {
+      "code": "GY",
+      "name": "Guyana",
+      "flag": "🇬🇾",
+      "pool": "caribbean_anglo",
+      "aliases": [
+        "guy"
+      ]
+    },
+    {
+      "code": "HT",
+      "name": "Haiti",
+      "flag": "🇭🇹",
+      "pool": "french",
+      "aliases": [
+        "hti"
+      ]
+    },
+    {
+      "code": "HN",
+      "name": "Honduras",
+      "flag": "🇭🇳",
+      "pool": "hispanic_latam",
+      "aliases": [
+        "hnd"
+      ]
+    },
+    {
+      "code": "HU",
+      "name": "Hungary",
+      "flag": "🇭🇺",
+      "pool": "hungarian",
+      "aliases": [
+        "hun"
+      ]
+    },
+    {
+      "code": "IS",
+      "name": "Iceland",
+      "flag": "🇮🇸",
+      "pool": "nordic",
+      "aliases": [
+        "isl"
+      ]
+    },
+    {
+      "code": "IN",
+      "name": "India",
+      "flag": "🇮🇳",
+      "pool": "indian",
+      "aliases": [
+        "ind",
+        "bharat"
+      ]
+    },
+    {
+      "code": "ID",
+      "name": "Indonesia",
+      "flag": "🇮🇩",
+      "pool": "indonesian",
+      "aliases": [
+        "idn",
+        "indo"
+      ]
+    },
+    {
+      "code": "IR",
+      "name": "Iran",
+      "flag": "🇮🇷",
+      "pool": "persian_afghan",
+      "aliases": [
+        "irn",
+        "persia"
+      ]
+    },
+    {
+      "code": "IQ",
+      "name": "Iraq",
+      "flag": "🇮🇶",
+      "pool": "levant_arabic",
+      "aliases": [
+        "irq"
+      ]
+    },
+    {
+      "code": "IE",
+      "name": "Ireland",
+      "flag": "🇮🇪",
+      "pool": "irish_celtic",
+      "aliases": [
+        "irl"
+      ]
+    },
+    {
+      "code": "IL",
+      "name": "Israel",
+      "flag": "🇮🇱",
+      "pool": "hebrew",
+      "aliases": [
+        "isr"
+      ]
+    },
+    {
+      "code": "IT",
+      "name": "Italy",
+      "flag": "🇮🇹",
+      "pool": "italian",
+      "aliases": [
+        "ita"
+      ]
+    },
+    {
+      "code": "JM",
+      "name": "Jamaica",
+      "flag": "🇯🇲",
+      "pool": "caribbean_anglo",
+      "aliases": [
+        "jam"
+      ]
+    },
+    {
+      "code": "JP",
+      "name": "Japan",
+      "flag": "🇯🇵",
+      "pool": "japanese",
+      "aliases": [
+        "jpn"
+      ]
+    },
+    {
+      "code": "JO",
+      "name": "Jordan",
+      "flag": "🇯🇴",
+      "pool": "levant_arabic",
+      "aliases": [
+        "jor"
+      ]
+    },
+    {
+      "code": "KZ",
+      "name": "Kazakhstan",
+      "flag": "🇰🇿",
+      "pool": "central_asian_turkic",
+      "aliases": [
+        "kaz"
+      ]
+    },
+    {
+      "code": "KE",
+      "name": "Kenya",
+      "flag": "🇰🇪",
+      "pool": "east_african",
+      "aliases": [
+        "ken"
+      ]
+    },
+    {
+      "code": "KI",
+      "name": "Kiribati",
+      "flag": "🇰🇮",
+      "pool": "pacific_polynesian",
+      "aliases": [
+        "kir"
+      ]
+    },
+    {
+      "code": "KP",
+      "name": "North Korea",
+      "flag": "🇰🇵",
+      "pool": "korean",
+      "aliases": [
+        "dprk",
+        "prk"
+      ]
+    },
+    {
+      "code": "KR",
+      "name": "South Korea",
+      "flag": "🇰🇷",
+      "pool": "korean",
+      "aliases": [
+        "korea",
+        "kor",
+        "rok"
+      ]
+    },
+    {
+      "code": "KW",
+      "name": "Kuwait",
+      "flag": "🇰🇼",
+      "pool": "gulf_arabic",
+      "aliases": [
+        "kwt"
+      ]
+    },
+    {
+      "code": "KG",
+      "name": "Kyrgyzstan",
+      "flag": "🇰🇬",
+      "pool": "central_asian_turkic",
+      "aliases": [
+        "kgz"
+      ]
+    },
+    {
+      "code": "LA",
+      "name": "Laos",
+      "flag": "🇱🇦",
+      "pool": "southeast_asian_thai_lao",
+      "aliases": [
+        "lao"
+      ]
+    },
+    {
+      "code": "LV",
+      "name": "Latvia",
+      "flag": "🇱🇻",
+      "pool": "baltic_finnic",
+      "aliases": [
+        "lva"
+      ]
+    },
+    {
+      "code": "LB",
+      "name": "Lebanon",
+      "flag": "🇱🇧",
+      "pool": "levant_arabic",
+      "aliases": [
+        "lbn"
+      ]
+    },
+    {
+      "code": "LS",
+      "name": "Lesotho",
+      "flag": "🇱🇸",
+      "pool": "southern_african",
+      "aliases": [
+        "lso"
+      ]
+    },
+    {
+      "code": "LR",
+      "name": "Liberia",
+      "flag": "🇱🇷",
+      "pool": "west_african_anglo",
+      "aliases": [
+        "lbr"
+      ]
+    },
+    {
+      "code": "LY",
+      "name": "Libya",
+      "flag": "🇱🇾",
+      "pool": "maghreb_arabic",
+      "aliases": [
+        "lby"
+      ]
+    },
+    {
+      "code": "LI",
+      "name": "Liechtenstein",
+      "flag": "🇱🇮",
+      "pool": "germanic",
+      "aliases": [
+        "lie"
+      ]
+    },
+    {
+      "code": "LT",
+      "name": "Lithuania",
+      "flag": "🇱🇹",
+      "pool": "baltic_finnic",
+      "aliases": [
+        "ltu"
+      ]
+    },
+    {
+      "code": "LU",
+      "name": "Luxembourg",
+      "flag": "🇱🇺",
+      "pool": "benelux",
+      "aliases": [
+        "lux"
+      ]
+    },
+    {
+      "code": "MG",
+      "name": "Madagascar",
+      "flag": "🇲🇬",
+      "pool": "east_african",
+      "aliases": [
+        "mdg"
+      ]
+    },
+    {
+      "code": "MW",
+      "name": "Malawi",
+      "flag": "🇲🇼",
+      "pool": "southern_african",
+      "aliases": [
+        "mwi"
+      ]
+    },
+    {
+      "code": "MY",
+      "name": "Malaysia",
+      "flag": "🇲🇾",
+      "pool": "malay",
+      "aliases": [
+        "mys"
+      ]
+    },
+    {
+      "code": "MV",
+      "name": "Maldives",
+      "flag": "🇲🇻",
+      "pool": "south_asian_island",
+      "aliases": [
+        "mdv"
+      ]
+    },
+    {
+      "code": "ML",
+      "name": "Mali",
+      "flag": "🇲🇱",
+      "pool": "sahel_african",
+      "aliases": [
+        "mli"
+      ]
+    },
+    {
+      "code": "MT",
+      "name": "Malta",
+      "flag": "🇲🇹",
+      "pool": "italian",
+      "aliases": [
+        "mlt"
+      ]
+    },
+    {
+      "code": "MH",
+      "name": "Marshall Islands",
+      "flag": "🇲🇭",
+      "pool": "pacific_polynesian",
+      "aliases": [
+        "mhl"
+      ]
+    },
+    {
+      "code": "MR",
+      "name": "Mauritania",
+      "flag": "🇲🇷",
+      "pool": "maghreb_arabic",
+      "aliases": [
+        "mrt"
+      ]
+    },
+    {
+      "code": "MU",
+      "name": "Mauritius",
+      "flag": "🇲🇺",
+      "pool": "indian",
+      "aliases": [
+        "mus"
+      ]
+    },
+    {
+      "code": "MX",
+      "name": "Mexico",
+      "flag": "🇲🇽",
+      "pool": "hispanic_latam",
+      "aliases": [
+        "mex"
+      ]
+    },
+    {
+      "code": "FM",
+      "name": "Micronesia",
+      "flag": "🇫🇲",
+      "pool": "pacific_polynesian",
+      "aliases": [
+        "fsm"
+      ]
+    },
+    {
+      "code": "MD",
+      "name": "Moldova",
+      "flag": "🇲🇩",
+      "pool": "romanian",
+      "aliases": [
+        "mda"
+      ]
+    },
+    {
+      "code": "MC",
+      "name": "Monaco",
+      "flag": "🇲🇨",
+      "pool": "french",
+      "aliases": [
+        "mco"
+      ]
+    },
+    {
+      "code": "MN",
+      "name": "Mongolia",
+      "flag": "🇲🇳",
+      "pool": "mongolian",
+      "aliases": [
+        "mng"
+      ]
+    },
+    {
+      "code": "ME",
+      "name": "Montenegro",
+      "flag": "🇲🇪",
+      "pool": "south_slavic",
+      "aliases": [
+        "mne"
+      ]
+    },
+    {
+      "code": "MA",
+      "name": "Morocco",
+      "flag": "🇲🇦",
+      "pool": "maghreb_arabic",
+      "aliases": [
+        "mar"
+      ]
+    },
+    {
+      "code": "MZ",
+      "name": "Mozambique",
+      "flag": "🇲🇿",
+      "pool": "lusophone_african",
+      "aliases": [
+        "moz"
+      ]
+    },
+    {
+      "code": "MM",
+      "name": "Myanmar",
+      "flag": "🇲🇲",
+      "pool": "myanmar",
+      "aliases": [
+        "burma",
+        "mmr"
+      ]
+    },
+    {
+      "code": "NA",
+      "name": "Namibia",
+      "flag": "🇳🇦",
+      "pool": "southern_african",
+      "aliases": [
+        "nam"
+      ]
+    },
+    {
+      "code": "NR",
+      "name": "Nauru",
+      "flag": "🇳🇷",
+      "pool": "pacific_polynesian",
+      "aliases": [
+        "nru"
+      ]
+    },
+    {
+      "code": "NP",
+      "name": "Nepal",
+      "flag": "🇳🇵",
+      "pool": "nepali",
+      "aliases": [
+        "npl"
+      ]
+    },
+    {
+      "code": "NL",
+      "name": "Netherlands",
+      "flag": "🇳🇱",
+      "pool": "benelux",
+      "aliases": [
+        "holland",
+        "nld"
+      ]
+    },
+    {
+      "code": "NZ",
+      "name": "New Zealand",
+      "flag": "🇳🇿",
+      "pool": "anglo_western",
+      "aliases": [
+        "nzl",
+        "kiwi"
+      ]
+    },
+    {
+      "code": "NI",
+      "name": "Nicaragua",
+      "flag": "🇳🇮",
+      "pool": "hispanic_latam",
+      "aliases": [
+        "nic"
+      ]
+    },
+    {
+      "code": "NE",
+      "name": "Niger",
+      "flag": "🇳🇪",
+      "pool": "sahel_african",
+      "aliases": [
+        "ner"
+      ]
+    },
+    {
+      "code": "NG",
+      "name": "Nigeria",
+      "flag": "🇳🇬",
+      "pool": "nigerian",
+      "aliases": [
+        "nga"
+      ]
+    },
+    {
+      "code": "MK",
+      "name": "North Macedonia",
+      "flag": "🇲🇰",
+      "pool": "south_slavic",
+      "aliases": [
+        "macedonia",
+        "mkd"
+      ]
+    },
+    {
+      "code": "NO",
+      "name": "Norway",
+      "flag": "🇳🇴",
+      "pool": "nordic",
+      "aliases": [
+        "nor"
+      ]
+    },
+    {
+      "code": "OM",
+      "name": "Oman",
+      "flag": "🇴🇲",
+      "pool": "gulf_arabic",
+      "aliases": [
+        "omn"
+      ]
+    },
+    {
+      "code": "PK",
+      "name": "Pakistan",
+      "flag": "🇵🇰",
+      "pool": "pakistani",
+      "aliases": [
+        "pak"
+      ]
+    },
+    {
+      "code": "PW",
+      "name": "Palau",
+      "flag": "🇵🇼",
+      "pool": "pacific_polynesian",
+      "aliases": [
+        "plw"
+      ]
+    },
+    {
+      "code": "PS",
+      "name": "Palestine",
+      "flag": "🇵🇸",
+      "pool": "levant_arabic",
+      "aliases": [
+        "pse"
+      ]
+    },
+    {
+      "code": "PA",
+      "name": "Panama",
+      "flag": "🇵🇦",
+      "pool": "hispanic_latam",
+      "aliases": [
+        "pan"
+      ]
+    },
+    {
+      "code": "PG",
+      "name": "Papua New Guinea",
+      "flag": "🇵🇬",
+      "pool": "pacific_polynesian",
+      "aliases": [
+        "png"
+      ]
+    },
+    {
+      "code": "PY",
+      "name": "Paraguay",
+      "flag": "🇵🇾",
+      "pool": "hispanic_latam",
+      "aliases": [
+        "pry"
+      ]
+    },
+    {
+      "code": "PE",
+      "name": "Peru",
+      "flag": "🇵🇪",
+      "pool": "hispanic_latam",
+      "aliases": [
+        "per"
+      ]
+    },
+    {
+      "code": "PH",
+      "name": "Philippines",
+      "flag": "🇵🇭",
+      "pool": "filipino",
+      "aliases": [
+        "phl"
+      ]
+    },
+    {
+      "code": "PL",
+      "name": "Poland",
+      "flag": "🇵🇱",
+      "pool": "west_slavic",
+      "aliases": [
+        "pol"
+      ]
+    },
+    {
+      "code": "PT",
+      "name": "Portugal",
+      "flag": "🇵🇹",
+      "pool": "iberian_portuguese",
+      "aliases": [
+        "prt"
+      ]
+    },
+    {
+      "code": "QA",
+      "name": "Qatar",
+      "flag": "🇶🇦",
+      "pool": "gulf_arabic",
+      "aliases": [
+        "qat"
+      ]
+    },
+    {
+      "code": "RO",
+      "name": "Romania",
+      "flag": "🇷🇴",
+      "pool": "romanian",
+      "aliases": [
+        "rou"
+      ]
+    },
+    {
+      "code": "RU",
+      "name": "Russia",
+      "flag": "🇷🇺",
+      "pool": "east_slavic",
+      "aliases": [
+        "rus"
+      ]
+    },
+    {
+      "code": "RW",
+      "name": "Rwanda",
+      "flag": "🇷🇼",
+      "pool": "east_african",
+      "aliases": [
+        "rwa"
+      ]
+    },
+    {
+      "code": "KN",
+      "name": "Saint Kitts and Nevis",
+      "flag": "🇰🇳",
+      "pool": "caribbean_anglo",
+      "aliases": [
+        "kna"
+      ]
+    },
+    {
+      "code": "LC",
+      "name": "Saint Lucia",
+      "flag": "🇱🇨",
+      "pool": "caribbean_anglo",
+      "aliases": [
+        "lca"
+      ]
+    },
+    {
+      "code": "VC",
+      "name": "Saint Vincent and the Grenadines",
+      "flag": "🇻🇨",
+      "pool": "caribbean_anglo",
+      "aliases": [
+        "vct"
+      ]
+    },
+    {
+      "code": "WS",
+      "name": "Samoa",
+      "flag": "🇼🇸",
+      "pool": "pacific_polynesian",
+      "aliases": [
+        "wsm"
+      ]
+    },
+    {
+      "code": "SM",
+      "name": "San Marino",
+      "flag": "🇸🇲",
+      "pool": "italian",
+      "aliases": [
+        "smr"
+      ]
+    },
+    {
+      "code": "ST",
+      "name": "Sao Tome and Principe",
+      "flag": "🇸🇹",
+      "pool": "lusophone_african",
+      "aliases": [
+        "stp"
+      ]
+    },
+    {
+      "code": "SA",
+      "name": "Saudi Arabia",
+      "flag": "🇸🇦",
+      "pool": "gulf_arabic",
+      "aliases": [
+        "ksa",
+        "saudi",
+        "sau"
+      ]
+    },
+    {
+      "code": "SN",
+      "name": "Senegal",
+      "flag": "🇸🇳",
+      "pool": "sahel_african",
+      "aliases": [
+        "sen"
+      ]
+    },
+    {
+      "code": "RS",
+      "name": "Serbia",
+      "flag": "🇷🇸",
+      "pool": "south_slavic",
+      "aliases": [
+        "srb"
+      ]
+    },
+    {
+      "code": "SC",
+      "name": "Seychelles",
+      "flag": "🇸🇨",
+      "pool": "east_african",
+      "aliases": [
+        "syc"
+      ]
+    },
+    {
+      "code": "SL",
+      "name": "Sierra Leone",
+      "flag": "🇸🇱",
+      "pool": "west_african_anglo",
+      "aliases": [
+        "sle"
+      ]
+    },
+    {
+      "code": "SG",
+      "name": "Singapore",
+      "flag": "🇸🇬",
+      "pool": "singaporean",
+      "aliases": [
+        "sgp"
+      ]
+    },
+    {
+      "code": "SK",
+      "name": "Slovakia",
+      "flag": "🇸🇰",
+      "pool": "west_slavic",
+      "aliases": [
+        "svk"
+      ]
+    },
+    {
+      "code": "SI",
+      "name": "Slovenia",
+      "flag": "🇸🇮",
+      "pool": "south_slavic",
+      "aliases": [
+        "svn"
+      ]
+    },
+    {
+      "code": "SB",
+      "name": "Solomon Islands",
+      "flag": "🇸🇧",
+      "pool": "pacific_polynesian",
+      "aliases": [
+        "slb"
+      ]
+    },
+    {
+      "code": "SO",
+      "name": "Somalia",
+      "flag": "🇸🇴",
+      "pool": "horn_african",
+      "aliases": [
+        "som"
+      ]
+    },
+    {
+      "code": "ZA",
+      "name": "South Africa",
+      "flag": "🇿🇦",
+      "pool": "southern_african",
+      "aliases": [
+        "zaf",
+        "rsa"
+      ]
+    },
+    {
+      "code": "SS",
+      "name": "South Sudan",
+      "flag": "🇸🇸",
+      "pool": "east_african",
+      "aliases": [
+        "ssd"
+      ]
+    },
+    {
+      "code": "ES",
+      "name": "Spain",
+      "flag": "🇪🇸",
+      "pool": "iberian_spanish",
+      "aliases": [
+        "esp"
+      ]
+    },
+    {
+      "code": "LK",
+      "name": "Sri Lanka",
+      "flag": "🇱🇰",
+      "pool": "sri_lankan",
+      "aliases": [
+        "lka"
+      ]
+    },
+    {
+      "code": "SD",
+      "name": "Sudan",
+      "flag": "🇸🇩",
+      "pool": "egyptian_arabic",
+      "aliases": [
+        "sdn"
+      ]
+    },
+    {
+      "code": "SR",
+      "name": "Suriname",
+      "flag": "🇸🇷",
+      "pool": "benelux",
+      "aliases": [
+        "sur"
+      ]
+    },
+    {
+      "code": "SE",
+      "name": "Sweden",
+      "flag": "🇸🇪",
+      "pool": "nordic",
+      "aliases": [
+        "swe"
+      ]
+    },
+    {
+      "code": "CH",
+      "name": "Switzerland",
+      "flag": "🇨🇭",
+      "pool": "germanic",
+      "aliases": [
+        "che",
+        "swiss"
+      ]
+    },
+    {
+      "code": "SY",
+      "name": "Syria",
+      "flag": "🇸🇾",
+      "pool": "levant_arabic",
+      "aliases": [
+        "syr"
+      ]
+    },
+    {
+      "code": "TW",
+      "name": "Taiwan",
+      "flag": "🇹🇼",
+      "pool": "chinese",
+      "aliases": [
+        "twn"
+      ]
+    },
+    {
+      "code": "TJ",
+      "name": "Tajikistan",
+      "flag": "🇹🇯",
+      "pool": "persian_afghan",
+      "aliases": [
+        "tjk"
+      ]
+    },
+    {
+      "code": "TZ",
+      "name": "Tanzania",
+      "flag": "🇹🇿",
+      "pool": "east_african",
+      "aliases": [
+        "tza"
+      ]
+    },
+    {
+      "code": "TH",
+      "name": "Thailand",
+      "flag": "🇹🇭",
+      "pool": "southeast_asian_thai_lao",
+      "aliases": [
+        "tha"
+      ]
+    },
+    {
+      "code": "TL",
+      "name": "Timor-Leste",
+      "flag": "🇹🇱",
+      "pool": "indonesian",
+      "aliases": [
+        "east timor",
+        "tls"
+      ]
+    },
+    {
+      "code": "TG",
+      "name": "Togo",
+      "flag": "🇹🇬",
+      "pool": "west_african_franco",
+      "aliases": [
+        "tgo"
+      ]
+    },
+    {
+      "code": "TO",
+      "name": "Tonga",
+      "flag": "🇹🇴",
+      "pool": "pacific_polynesian",
+      "aliases": [
+        "ton"
+      ]
+    },
+    {
+      "code": "TT",
+      "name": "Trinidad and Tobago",
+      "flag": "🇹🇹",
+      "pool": "caribbean_anglo",
+      "aliases": [
+        "tto"
+      ]
+    },
+    {
+      "code": "TN",
+      "name": "Tunisia",
+      "flag": "🇹🇳",
+      "pool": "maghreb_arabic",
+      "aliases": [
+        "tun"
+      ]
+    },
+    {
+      "code": "TR",
+      "name": "Turkey",
+      "flag": "🇹🇷",
+      "pool": "turkish",
+      "aliases": [
+        "turkiye",
+        "tur"
+      ]
+    },
+    {
+      "code": "TM",
+      "name": "Turkmenistan",
+      "flag": "🇹🇲",
+      "pool": "central_asian_turkic",
+      "aliases": [
+        "tkm"
+      ]
+    },
+    {
+      "code": "TV",
+      "name": "Tuvalu",
+      "flag": "🇹🇻",
+      "pool": "pacific_polynesian",
+      "aliases": [
+        "tuv"
+      ]
+    },
+    {
+      "code": "UG",
+      "name": "Uganda",
+      "flag": "🇺🇬",
+      "pool": "east_african",
+      "aliases": [
+        "uga"
+      ]
+    },
+    {
+      "code": "UA",
+      "name": "Ukraine",
+      "flag": "🇺🇦",
+      "pool": "east_slavic",
+      "aliases": [
+        "ukr"
+      ]
+    },
+    {
+      "code": "AE",
+      "name": "United Arab Emirates",
+      "flag": "🇦🇪",
+      "pool": "gulf_arabic",
+      "aliases": [
+        "uae",
+        "dubai",
+        "are"
+      ]
+    },
+    {
+      "code": "GB",
+      "name": "United Kingdom",
+      "flag": "🇬🇧",
+      "pool": "anglo_western",
+      "aliases": [
+        "uk",
+        "britain",
+        "england",
+        "gbr"
+      ]
+    },
+    {
+      "code": "US",
+      "name": "United States",
+      "flag": "🇺🇸",
+      "pool": "anglo_western",
+      "aliases": [
+        "usa",
+        "us",
+        "america"
+      ]
+    },
+    {
+      "code": "UY",
+      "name": "Uruguay",
+      "flag": "🇺🇾",
+      "pool": "hispanic_latam",
+      "aliases": [
+        "ury"
+      ]
+    },
+    {
+      "code": "UZ",
+      "name": "Uzbekistan",
+      "flag": "🇺🇿",
+      "pool": "central_asian_turkic",
+      "aliases": [
+        "uzb"
+      ]
+    },
+    {
+      "code": "VU",
+      "name": "Vanuatu",
+      "flag": "🇻🇺",
+      "pool": "pacific_polynesian",
+      "aliases": [
+        "vut"
+      ]
+    },
+    {
+      "code": "VA",
+      "name": "Vatican City",
+      "flag": "🇻🇦",
+      "pool": "italian",
+      "aliases": [
+        "vat"
+      ]
+    },
+    {
+      "code": "VE",
+      "name": "Venezuela",
+      "flag": "🇻🇪",
+      "pool": "hispanic_latam",
+      "aliases": [
+        "ven"
+      ]
+    },
+    {
+      "code": "VN",
+      "name": "Vietnam",
+      "flag": "🇻🇳",
+      "pool": "vietnamese",
+      "aliases": [
+        "vnm"
+      ]
+    },
+    {
+      "code": "YE",
+      "name": "Yemen",
+      "flag": "🇾🇪",
+      "pool": "gulf_arabic",
+      "aliases": [
+        "yem"
+      ]
+    },
+    {
+      "code": "ZM",
+      "name": "Zambia",
+      "flag": "🇿🇲",
+      "pool": "southern_african",
+      "aliases": [
+        "zmb"
+      ]
+    },
+    {
+      "code": "ZW",
+      "name": "Zimbabwe",
+      "flag": "🇿🇼",
+      "pool": "southern_african",
+      "aliases": [
+        "zwe"
+      ]
+    }
+  ],
+  "pools": {
+    "bangladeshi": {
+      "male_first": [
+        "Tanvir",
+        "Shakib",
+        "Rahim",
+        "Karim",
+        "Arafat",
+        "Tamim",
+        "Sabbir",
+        "Mushfiq",
+        "Mahmudullah",
+        "Farhan",
+        "Nasir",
+        "Naim",
+        "Jisan",
+        "Anik",
+        "Nayeem",
+        "Tariq",
+        "Zahid",
+        "Shohel",
+        "Siam",
+        "Alamin",
+        "Hasan",
+        "Rifat",
+        "Mehedi",
+        "Fahim",
+        "Ashiq",
+        "Jahid",
+        "Saiful",
+        "Imran",
+        "Arif",
+        "Shanto",
+        "Mustafiz",
+        "Taskin"
+      ],
+      "female_first": [
+        "Nusrat",
+        "Sadia",
+        "Jannat",
+        "Farhana",
+        "Tanzila",
+        "Rima",
+        "Mim",
+        "Afsana",
+        "Tasnim",
+        "Sharmin",
+        "Sabrina",
+        "Rumana",
+        "Shirin",
+        "Nabila",
+        "Sumaiya",
+        "Lamia",
+        "Anika",
+        "Mehnaz",
+        "Sultana",
+        "Faria",
+        "Samira",
+        "Tahmina",
+        "Marufa",
+        "Priya",
+        "Lubna",
+        "Nasrin",
+        "Tamanna",
+        "Rokeya",
+        "Naznin",
+        "Munira",
+        "Jahanara",
+        "Sanjida"
+      ],
+      "last_names": [
+        "Ahmed",
+        "Hasan",
+        "Rahman",
+        "Islam",
+        "Hossain",
+        "Chowdhury",
+        "Khan",
+        "Ali",
+        "Uddin",
+        "Mia",
+        "Sikder",
+        "Bhuiyan",
+        "Mollah",
+        "Talukder",
+        "Sarker",
+        "Howlader",
+        "Mazumder",
+        "Akter",
+        "Begum",
+        "Dewan",
+        "Kazi",
+        "Majumder",
+        "Gazi",
+        "Biswas"
+      ]
+    },
+    "indian": {
+      "male_first": [
+        "Aarav",
+        "Vihaan",
+        "Aditya",
+        "Rohan",
+        "Kabir",
+        "Aryan",
+        "Reyansh",
+        "Arjun",
+        "Vivaan",
+        "Dhruv",
+        "Sai",
+        "Ishaan",
+        "Ayush",
+        "Rahul",
+        "Amit",
+        "Vikram",
+        "Sanjay",
+        "Rajesh",
+        "Karan",
+        "Manish",
+        "Deepak",
+        "Naveen",
+        "Pranav",
+        "Gaurav"
+      ],
+      "female_first": [
+        "Aanya",
+        "Diya",
+        "Saanvi",
+        "Ananya",
+        "Ishita",
+        "Aarohi",
+        "Pooja",
+        "Priya",
+        "Kavya",
+        "Sneha",
+        "Neha",
+        "Riya",
+        "Shreya",
+        "Tanvi",
+        "Meera",
+        "Aditi",
+        "Anushka",
+        "Deepika",
+        "Sunita",
+        "Swati",
+        "Nandini",
+        "Pallavi",
+        "Divya",
+        "Komal"
+      ],
+      "last_names": [
+        "Sharma",
+        "Verma",
+        "Patel",
+        "Singh",
+        "Kumar",
+        "Gupta",
+        "Reddy",
+        "Mehta",
+        "Nair",
+        "Iyer",
+        "Rao",
+        "Joshi",
+        "Bose",
+        "Banerjee",
+        "Chatterjee",
+        "Mukherjee",
+        "Das",
+        "Chopra",
+        "Malhotra",
+        "Kapoor",
+        "Agarwal",
+        "Bhatia",
+        "Deshmukh",
+        "Kulkarni"
+      ]
+    },
+    "pakistani": {
+      "male_first": [
+        "Muhammad",
+        "Bilal",
+        "Hamza",
+        "Usman",
+        "Zubair",
+        "Haris",
+        "Babar",
+        "Shaheen",
+        "Rizwan",
+        "Fakhar",
+        "Shadab",
+        "Asif",
+        "Faheem",
+        "Imad",
+        "Shoaib",
+        "Shahid",
+        "Tariq",
+        "Waqas",
+        "Noman",
+        "Khurram",
+        "Danish",
+        "Salman",
+        "Zeeshan",
+        "Kamran"
+      ],
+      "female_first": [
+        "Ayesha",
+        "Fatima",
+        "Zainab",
+        "Maryam",
+        "Hiba",
+        "Mahnoor",
+        "Hania",
+        "Kinza",
+        "Iqra",
+        "Bushra",
+        "Laiba",
+        "Eman",
+        "Sara",
+        "Hira",
+        "Madiha",
+        "Sidra",
+        "Rabia",
+        "Khadija",
+        "Aleena",
+        "Noor",
+        "Nimra",
+        "Anum",
+        "Saba",
+        "Zunaira"
+      ],
+      "last_names": [
+        "Khan",
+        "Malik",
+        "Chaudhry",
+        "Butt",
+        "Bhatti",
+        "Sheikh",
+        "Qureshi",
+        "Abbasi",
+        "Farooqi",
+        "Siddiqui",
+        "Mirza",
+        "Baig",
+        "Raza",
+        "Gill",
+        "Jutt",
+        "Gondal",
+        "Dar",
+        "Mughal",
+        "Awan",
+        "Hashmi",
+        "Shah",
+        "Shahid",
+        "Rehman",
+        "Lodhi"
+      ]
+    },
+    "anglo_western": {
+      "male_first": [
+        "James",
+        "William",
+        "Oliver",
+        "Noah",
+        "Liam",
+        "Benjamin",
+        "Lucas",
+        "Henry",
+        "Alexander",
+        "Mason",
+        "Michael",
+        "Ethan",
+        "Daniel",
+        "Matthew",
+        "Jackson",
+        "David",
+        "Joseph",
+        "Samuel",
+        "Sebastian",
+        "Jack",
+        "Owen",
+        "Carter",
+        "Wyatt",
+        "John"
+      ],
+      "female_first": [
+        "Emma",
+        "Olivia",
+        "Amelia",
+        "Sophia",
+        "Charlotte",
+        "Ava",
+        "Isabella",
+        "Mia",
+        "Evelyn",
+        "Harper",
+        "Camila",
+        "Gianna",
+        "Abigail",
+        "Ella",
+        "Emily",
+        "Elizabeth",
+        "Sofia",
+        "Avery",
+        "Scarlett",
+        "Chloe",
+        "Victoria",
+        "Grace",
+        "Zoey",
+        "Penelope"
+      ],
+      "last_names": [
+        "Smith",
+        "Johnson",
+        "Williams",
+        "Brown",
+        "Jones",
+        "Miller",
+        "Davis",
+        "Wilson",
+        "Anderson",
+        "Taylor",
+        "Thomas",
+        "Moore",
+        "Jackson",
+        "Martin",
+        "Lee",
+        "Perez",
+        "Thompson",
+        "White",
+        "Harris",
+        "Sanchez",
+        "Clark",
+        "Ramirez",
+        "Lewis",
+        "Robinson",
+        "Walker",
+        "Young",
+        "Allen",
+        "King",
+        "Wright",
+        "Scott",
+        "Torres",
+        "Nguyen"
+      ]
+    },
+    "germanic": {
+      "male_first": [
+        "Lukas",
+        "Leon",
+        "Maximilian",
+        "Felix",
+        "Paul",
+        "Jonas",
+        "Elias",
+        "Finn",
+        "Noah",
+        "Ben",
+        "Niklas",
+        "Tim",
+        "David",
+        "Julian",
+        "Philipp",
+        "Moritz",
+        "Alexander",
+        "Jan",
+        "Florian",
+        "Fabian",
+        "Tobias",
+        "Sebastian",
+        "Stefan",
+        "Markus"
+      ],
+      "female_first": [
+        "Mia",
+        "Emma",
+        "Hannah",
+        "Sofia",
+        "Anna",
+        "Emilia",
+        "Lina",
+        "Marie",
+        "Lena",
+        "Mila",
+        "Lea",
+        "Laura",
+        "Clara",
+        "Nele",
+        "Johanna",
+        "Lara",
+        "Sarah",
+        "Charlotte",
+        "Frieda",
+        "Ida",
+        "Mathilda",
+        "Greta",
+        "Maja",
+        "Paula"
+      ],
+      "last_names": [
+        "Müller",
+        "Schmidt",
+        "Schneider",
+        "Fischer",
+        "Weber",
+        "Meyer",
+        "Wagner",
+        "Becker",
+        "Schulz",
+        "Hoffmann",
+        "Schäfer",
+        "Koch",
+        "Bauer",
+        "Richter",
+        "Klein",
+        "Wolf",
+        "Schröder",
+        "Neumann",
+        "Schwarz",
+        "Zimmermann",
+        "Braun",
+        "Krüger",
+        "Hofmann",
+        "Hartmann"
+      ]
+    },
+    "french": {
+      "male_first": [
+        "Gabriel",
+        "Léo",
+        "Raphaël",
+        "Arthur",
+        "Louis",
+        "Lucas",
+        "Adam",
+        "Jules",
+        "Hugo",
+        "Maël",
+        "Liam",
+        "Noah",
+        "Paul",
+        "Ethan",
+        "Sacha",
+        "Tom",
+        "Gaspard",
+        "Antoine",
+        "Clément",
+        "Mathéo",
+        "Victor",
+        "Maxime",
+        "Alexandre",
+        "Enzo"
+      ],
+      "female_first": [
+        "Jade",
+        "Louise",
+        "Emma",
+        "Ambre",
+        "Alice",
+        "Rose",
+        "Anna",
+        "Mila",
+        "Romy",
+        "Mia",
+        "Lina",
+        "Chloé",
+        "Léa",
+        "Léna",
+        "Manon",
+        "Juliette",
+        "Inès",
+        "Camille",
+        "Agathe",
+        "Zoé",
+        "Jeanne",
+        "Lucie",
+        "Eva",
+        "Sarah"
+      ],
+      "last_names": [
+        "Martin",
+        "Bernard",
+        "Thomas",
+        "Petit",
+        "Robert",
+        "Richard",
+        "Durand",
+        "Dubois",
+        "Moreau",
+        "Laurent",
+        "Simon",
+        "Michel",
+        "Lefebvre",
+        "Leroy",
+        "Roux",
+        "David",
+        "Bertrand",
+        "Morel",
+        "Fournier",
+        "Girard",
+        "Bonnet",
+        "Dupont",
+        "Lambert",
+        "Fontaine"
+      ]
+    },
+    "hispanic_latam": {
+      "male_first": [
+        "Mateo",
+        "Santiago",
+        "Matías",
+        "Sebastián",
+        "Diego",
+        "Emiliano",
+        "Nicolás",
+        "Alejandro",
+        "Lucas",
+        "Benjamín",
+        "Joaquín",
+        "Leonardo",
+        "Samuel",
+        "Daniel",
+        "Gabriel",
+        "Tomás",
+        "Thiago",
+        "Carlos",
+        "Javier",
+        "Fernando",
+        "Rodrigo",
+        "Andrés",
+        "Manuel",
+        "Ángel"
+      ],
+      "female_first": [
+        "Sofía",
+        "Valentina",
+        "Isabella",
+        "Camila",
+        "Valeria",
+        "Mariana",
+        "Gabriela",
+        "Lucía",
+        "Martina",
+        "Victoria",
+        "Elena",
+        "Daniela",
+        "Catalina",
+        "Natalia",
+        "Renata",
+        "Paula",
+        "Juana",
+        "Antonella",
+        "Samantha",
+        "Ximena",
+        "Andrea",
+        "Fernanda",
+        "Carolina",
+        "Sara"
+      ],
+      "last_names": [
+        "García",
+        "Rodríguez",
+        "González",
+        "Fernández",
+        "López",
+        "Martínez",
+        "Sánchez",
+        "Pérez",
+        "Gómez",
+        "Martín",
+        "Jiménez",
+        "Ruiz",
+        "Hernández",
+        "Diaz",
+        "Moreno",
+        "Álvarez",
+        "Romero",
+        "Alonso",
+        "Gutiérrez",
+        "Navarro",
+        "Torres",
+        "Domínguez",
+        "Vázquez",
+        "Ramos"
+      ]
+    },
+    "brazilian": {
+      "male_first": [
+        "Miguel",
+        "Arthur",
+        "Heitor",
+        "Bernardo",
+        "Théo",
+        "Davi",
+        "Gabriel",
+        "Pedro",
+        "Samuel",
+        "Lorenzo",
+        "Benjamin",
+        "Matheus",
+        "Lucas",
+        "Nicolas",
+        "Joaquim",
+        "Henrique",
+        "Rafael",
+        "Guilherme",
+        "Murilo",
+        "Felipe",
+        "Gustavo",
+        "Enzo",
+        "Vitor",
+        "Eduardo"
+      ],
+      "female_first": [
+        "Helena",
+        "Alice",
+        "Laura",
+        "Manuela",
+        "Valentina",
+        "Sophia",
+        "Isabella",
+        "Heloísa",
+        "Luiza",
+        "Júlia",
+        "Lorena",
+        "Lívia",
+        "Maria Luiza",
+        "Cecília",
+        "Eloá",
+        "Giovanna",
+        "Maria Eduarda",
+        "Mariana",
+        "Lara",
+        "Beatriz",
+        "Antonella",
+        "Emanuelly",
+        "Isadora",
+        "Melissa"
+      ],
+      "last_names": [
+        "Silva",
+        "Santos",
+        "Oliveira",
+        "Souza",
+        "Rodrigues",
+        "Ferreira",
+        "Alves",
+        "Pereira",
+        "Lima",
+        "Gomes",
+        "Costa",
+        "Ribeiro",
+        "Martins",
+        "Carvalho",
+        "Almeida",
+        "Lopes",
+        "Soares",
+        "Fernandes",
+        "Vieira",
+        "Barbosa",
+        "Rocha",
+        "Dias",
+        "Nascimento",
+        "Andrade"
+      ]
+    },
+    "italian": {
+      "male_first": [
+        "Leonardo",
+        "Francesco",
+        "Alessandro",
+        "Lorenzo",
+        "Mattia",
+        "Andrea",
+        "Gabriele",
+        "Riccardo",
+        "Tommaso",
+        "Edoardo",
+        "Federico",
+        "Matteo",
+        "Diego",
+        "Niccolò",
+        "Davide",
+        "Giuseppe",
+        "Pietro",
+        "Antonio",
+        "Samuele",
+        "Filippo",
+        "Marco",
+        "Giovanni",
+        "Luca",
+        "Christian"
+      ],
+      "female_first": [
+        "Sofia",
+        "Aurora",
+        "Giulia",
+        "Ginevra",
+        "Beatrice",
+        "Alice",
+        "Vittoria",
+        "Emma",
+        "Ludovica",
+        "Matilde",
+        "Giorgia",
+        "Chiara",
+        "Anna",
+        "Camilla",
+        "Greta",
+        "Elena",
+        "Francesca",
+        "Sara",
+        "Nicole",
+        "Martina",
+        "Bianca",
+        "Noemi",
+        "Gaia",
+        "Alessia"
+      ],
+      "last_names": [
+        "Rossi",
+        "Russo",
+        "Ferrari",
+        "Esposito",
+        "Bianchi",
+        "Romano",
+        "Colombo",
+        "Ricci",
+        "Marino",
+        "Greco",
+        "Bruno",
+        "Gallo",
+        "Conti",
+        "De Luca",
+        "Mancini",
+        "Costa",
+        "Giordano",
+        "Rizzo",
+        "Lombardi",
+        "Moretti",
+        "Barbieri",
+        "Fontana",
+        "Santoro",
+        "Mariani"
+      ]
+    },
+    "japanese": {
+      "male_first": [
+        "Haruto",
+        "Yuto",
+        "Sota",
+        "Yuki",
+        "Hayato",
+        "Haruki",
+        "Ryota",
+        "Kaito",
+        "Ren",
+        "Takumi",
+        "Daiki",
+        "Kenji",
+        "Kazuki",
+        "Riku",
+        "Taichi",
+        "Shota",
+        "Hinata",
+        "Kota",
+        "Naoki",
+        "Sho",
+        "Tsubasa",
+        "Yuma",
+        "Itsuki",
+        "Shin"
+      ],
+      "female_first": [
+        "Yui",
+        "Aoi",
+        "Hina",
+        "Rin",
+        "Sakura",
+        "Yuna",
+        "Miyu",
+        "Nanami",
+        "Akari",
+        "Mei",
+        "Kanna",
+        "Koharu",
+        "Sora",
+        "Honoka",
+        "Mao",
+        "Rio",
+        "Hiyori",
+        "Saki",
+        "Ayaka",
+        "Misaki",
+        "Asuka",
+        "Nana",
+        "Hikari",
+        "Riko"
+      ],
+      "last_names": [
+        "Sato",
+        "Suzuki",
+        "Takahashi",
+        "Tanaka",
+        "Watanabe",
+        "Ito",
+        "Yamamoto",
+        "Nakamura",
+        "Kobayashi",
+        "Kato",
+        "Yoshida",
+        "Yamada",
+        "Sasaki",
+        "Yamaguchi",
+        "Saito",
+        "Matsumoto",
+        "Inoue",
+        "Kimura",
+        "Hayashi",
+        "Shimizu",
+        "Yamazaki",
+        "Mori",
+        "Abe",
+        "Ikeda"
+      ]
+    },
+    "chinese": {
+      "male_first": [
+        "Wei",
+        "Hao",
+        "Yi",
+        "Chen",
+        "Jun",
+        "Jian",
+        "Bo",
+        "Lei",
+        "Tao",
+        "Qiang",
+        "Peng",
+        "Ming",
+        "Chao",
+        "Zhen",
+        "Feng",
+        "Jie",
+        "Long",
+        "Xiang",
+        "Kai",
+        "Rui",
+        "Yang",
+        "Bin",
+        "Yu",
+        "Hui"
+      ],
+      "female_first": [
+        "Fang",
+        "Xiu",
+        "Ying",
+        "Min",
+        "Jing",
+        "Li",
+        "Yan",
+        "Dan",
+        "Na",
+        "Ping",
+        "Ting",
+        "Ling",
+        "Mei",
+        "Lan",
+        "Hong",
+        "Qian",
+        "Xin",
+        "Yue",
+        "Jia",
+        "Meng",
+        "Xue",
+        "Yun",
+        "Fei",
+        "Shu"
+      ],
+      "last_names": [
+        "Wang",
+        "Li",
+        "Zhang",
+        "Liu",
+        "Chen",
+        "Yang",
+        "Huang",
+        "Zhao",
+        "Wu",
+        "Zhou",
+        "Xu",
+        "Sun",
+        "Ma",
+        "Zhu",
+        "Hu",
+        "Guo",
+        "He",
+        "Gao",
+        "Lin",
+        "Luo",
+        "Zheng",
+        "Liang",
+        "Xie",
+        "Song"
+      ]
+    },
+    "korean": {
+      "male_first": [
+        "Min-jun",
+        "Seo-jun",
+        "Do-yun",
+        "Ye-jun",
+        "Si-woo",
+        "Ha-joon",
+        "Ji-ho",
+        "Ju-won",
+        "Jun-woo",
+        "Ji-hoon",
+        "Hyun-woo",
+        "Geon-woo",
+        "Woo-jin",
+        "Sun-woo",
+        "Eun-woo",
+        "Jung-hoon",
+        "Tae-hyung",
+        "Jungkook",
+        "Ji-min",
+        "Nam-joon",
+        "Min-ho",
+        "Seung-gi",
+        "Jin-woo",
+        "Dong-hyun"
+      ],
+      "female_first": [
+        "Seo-yeon",
+        "Seo-yun",
+        "Ji-woo",
+        "Seo-hyeon",
+        "Min-seo",
+        "Ha-eun",
+        "Ha-yoon",
+        "Yun-seo",
+        "Ji-min",
+        "Ji-yu",
+        "Chae-won",
+        "Su-a",
+        "Da-eun",
+        "Ye-eun",
+        "Soo-bin",
+        "Eun-ji",
+        "Ji-eun",
+        "Na-yeon",
+        "Yoo-na",
+        "Bo-ra",
+        "Hye-jin",
+        "Min-ji",
+        "Sun-hee",
+        "Yoo-jung"
+      ],
+      "last_names": [
+        "Kim",
+        "Lee",
+        "Park",
+        "Choi",
+        "Jeong",
+        "Kang",
+        "Cho",
+        "Yoon",
+        "Jang",
+        "Lim",
+        "Han",
+        "Oh",
+        "Seo",
+        "Shin",
+        "Kwon",
+        "Hwang",
+        "Ahn",
+        "Song",
+        "Ryu",
+        "Hong",
+        "Ko",
+        "Moon",
+        "Yang",
+        "Son"
+      ]
+    },
+    "east_slavic": {
+      "male_first": [
+        "Alexander",
+        "Mikhail",
+        "Ivan",
+        "Dmitry",
+        "Sergey",
+        "Andrey",
+        "Alexey",
+        "Artem",
+        "Maxim",
+        "Ilya",
+        "Vladimir",
+        "Pavel",
+        "Nikita",
+        "Denis",
+        "Roman",
+        "Anton",
+        "Vladislav",
+        "Egor",
+        "Kirill",
+        "Yaroslav",
+        "Timofey",
+        "Matvey",
+        "Konstantin",
+        "Viktor"
+      ],
+      "female_first": [
+        "Anastasia",
+        "Maria",
+        "Daria",
+        "Anna",
+        "Elena",
+        "Olga",
+        "Ekaterina",
+        "Polina",
+        "Alisa",
+        "Victoria",
+        "Ksenia",
+        "Svetlana",
+        "Yulia",
+        "Natalia",
+        "Irina",
+        "Tatiana",
+        "Sofia",
+        "Veronika",
+        "Margarita",
+        "Valeria",
+        "Alena",
+        "Kristina",
+        "Eva",
+        "Diana"
+      ],
+      "last_names": [
+        "Ivanov",
+        "Smirnov",
+        "Kuznetsov",
+        "Popov",
+        "Vasiliev",
+        "Petrov",
+        "Sokolov",
+        "Mikhailov",
+        "Novikov",
+        "Fedorov",
+        "Morozov",
+        "Volkov",
+        "Alekseev",
+        "Lebedev",
+        "Semenov",
+        "Egorov",
+        "Pavlov",
+        "Kozlov",
+        "Stepanov",
+        "Nikolaev",
+        "Orlov",
+        "Andreev",
+        "Makarov",
+        "Nikitin"
+      ]
+    },
+    "turkish": {
+      "male_first": [
+        "Yusuf",
+        "Eymen",
+        "Ömer",
+        "Miraç",
+        "Kerem",
+        "Mustafa",
+        "Ahmet",
+        "Mehmet",
+        "Ali",
+        "Emir",
+        "Eren",
+        "Alparslan",
+        "Hamza",
+        "Burak",
+        "Emre",
+        "Can",
+        "Deniz",
+        "Kaan",
+        "Barış",
+        "Arda",
+        "Tolga",
+        "Mert",
+        "Oğuz",
+        "Serkan"
+      ],
+      "female_first": [
+        "Zeynep",
+        "Elif",
+        "Defne",
+        "Asra",
+        "Ebrar",
+        "Eylül",
+        "Miray",
+        "Zehra",
+        "Azra",
+        "Nehir",
+        "Fatma",
+        "Ayşe",
+        "Meryem",
+        "Ceren",
+        "Dilara",
+        "Selin",
+        "Gamze",
+        "Melis",
+        "Damla",
+        "Gizem",
+        "İrem",
+        "Ece",
+        "Büşra",
+        "Yağmur"
+      ],
+      "last_names": [
+        "Yılmaz",
+        "Kaya",
+        "Demir",
+        "Çelik",
+        "Şahin",
+        "Yıldız",
+        "Yıldırım",
+        "Öztürk",
+        "Aydın",
+        "Özdemir",
+        "Arslan",
+        "Doğan",
+        "Kılıç",
+        "Aslan",
+        "Çetin",
+        "Kara",
+        "Koç",
+        "Kurt",
+        "Özkan",
+        "Şimşek",
+        "Polat",
+        "Özcan",
+        "Korkmaz",
+        "Erdoğan"
+      ]
+    },
+    "gulf_arabic": {
+      "male_first": [
+        "Mohammed",
+        "Abdullah",
+        "Fahad",
+        "Khalid",
+        "Sultan",
+        "Abdulaziz",
+        "Saud",
+        "Hamad",
+        "Nasser",
+        "Faisal",
+        "Bandar",
+        "Rashid",
+        "Mansour",
+        "Majed",
+        "Turki",
+        "Salem",
+        "Tariq",
+        "Zayed",
+        "Mubarak",
+        "Saad",
+        "Nayef",
+        "Bader",
+        "Waleed",
+        "Talal"
+      ],
+      "female_first": [
+        "Nourah",
+        "Sara",
+        "Reem",
+        "Lulwah",
+        "Hessa",
+        "Maha",
+        "Latifa",
+        "Fatima",
+        "Alanood",
+        "Deema",
+        "Dana",
+        "Jawaher",
+        "Shaikha",
+        "Maryam",
+        "Munira",
+        "Ghada",
+        "Mashael",
+        "Abeer",
+        "Wafa",
+        "Asma",
+        "Rawan",
+        "Hala",
+        "Dalal",
+        "Budoor"
+      ],
+      "last_names": [
+        "Al-Otaibi",
+        "Al-Ghamdi",
+        "Al-Harbi",
+        "Al-Shehri",
+        "Al-Dossari",
+        "Al-Zahrani",
+        "Al-Qahtani",
+        "Al-Mutairi",
+        "Al-Subaie",
+        "Al-Shammari",
+        "Al-Rashidi",
+        "Al-Hajri",
+        "Al-Marri",
+        "Al-Nuaimi",
+        "Al-Falasi",
+        "Al-Ketbi",
+        "Al-Mansouri",
+        "Al-Kaabi",
+        "Al-Suwaidi",
+        "Al-Kuwari",
+        "Al-Sabah",
+        "Al-Thani",
+        "Al-Nahyan",
+        "Al-Maktoum"
+      ]
+    },
+    "egyptian_arabic": {
+      "male_first": [
+        "Ahmed",
+        "Mohamed",
+        "Mahmoud",
+        "Mostafa",
+        "Omar",
+        "Amr",
+        "Tamer",
+        "Karim",
+        "Youssef",
+        "Hassan",
+        "Hussein",
+        "Sherif",
+        "Sameh",
+        "Hazem",
+        "Mazen",
+        "Ziad",
+        "Essam",
+        "Wael",
+        "Ayman",
+        "Khaled",
+        "Ibrahim",
+        "Tariq",
+        "Hani",
+        "Eslam"
+      ],
+      "female_first": [
+        "Mariam",
+        "Fatma",
+        "Nour",
+        "Salma",
+        "Aya",
+        "Sara",
+        "Heba",
+        "Rania",
+        "Dina",
+        "Mona",
+        "Menna",
+        "Nada",
+        "Yasmin",
+        "Mai",
+        "Noha",
+        "Hadeer",
+        "Radwa",
+        "Amira",
+        "Donia",
+        "Esraa",
+        "Nadine",
+        "Farida",
+        "Engy",
+        "Reham"
+      ],
+      "last_names": [
+        "El-Sayed",
+        "Abdel-Rahman",
+        "Ibrahim",
+        "Hassan",
+        "Ali",
+        "Mahmoud",
+        "Mostafa",
+        "Soliman",
+        "Fahmy",
+        "Khalil",
+        "Salama",
+        "Mansour",
+        "El-Masry",
+        "Badawy",
+        "Ghoneim",
+        "Naguib",
+        "Othman",
+        "Shafik",
+        "Farouk",
+        "El-Naggar",
+        "Shalaby",
+        "Metwally",
+        "Radwan",
+        "El-Baz"
+      ]
+    },
+    "maghreb_arabic": {
+      "male_first": [
+        "Youssef",
+        "Amine",
+        "Mehdi",
+        "Hamza",
+        "Ayoub",
+        "Anas",
+        "Rayane",
+        "Ilyas",
+        "Walid",
+        "Reda",
+        "Karim",
+        "Bilal",
+        "Sofiane",
+        "Adel",
+        "Tarik",
+        "Nassim",
+        "Samir",
+        "Zouhair",
+        "Rachid",
+        "Hicham",
+        "Mourad",
+        "Nabil",
+        "Brahim",
+        "Fouad"
+      ],
+      "female_first": [
+        "Imane",
+        "Salma",
+        "Hajar",
+        "Khadija",
+        "Fatima-Zahra",
+        "Zineb",
+        "Soukaina",
+        "Meryem",
+        "Chaimae",
+        "Nour",
+        "Manal",
+        "Asmaa",
+        "Ines",
+        "Yasmine",
+        "Siham",
+        "Kenza",
+        "Nawal",
+        "Houda",
+        "Leila",
+        "Samira",
+        "Sabrina",
+        "Bouchra",
+        "Hasna",
+        "Latifa"
+      ],
+      "last_names": [
+        "Benali",
+        "Bennani",
+        "El-Idrissi",
+        "El-Amrani",
+        "Mansouri",
+        "Bouazza",
+        "Berrada",
+        "Tazi",
+        "Alaoui",
+        "Chraibi",
+        "Belkacem",
+        "Brahimi",
+        "Guerrouj",
+        "Saidi",
+        "Haddad",
+        "Cherif",
+        "Benmoussa",
+        "Benkirane",
+        "Belhadj",
+        "Zitouni",
+        "Dahmani",
+        "Amara",
+        "Chaouch",
+        "Khelifi"
+      ]
+    },
+    "levant_arabic": {
+      "male_first": [
+        "Jad",
+        "Charbel",
+        "Elie",
+        "Sami",
+        "Karim",
+        "Ziad",
+        "Fadi",
+        "Rami",
+        "Tarek",
+        "Wassim",
+        "Bassam",
+        "Nizar",
+        "Ghassan",
+        "Firas",
+        "Hani",
+        "Samer",
+        "Ahmad",
+        "Mahmoud",
+        "Laith",
+        "Zaid",
+        "Bashar",
+        "Hatem",
+        "Marwan",
+        "Jamil"
+      ],
+      "female_first": [
+        "Nour",
+        "Lara",
+        "Maya",
+        "Tala",
+        "Reem",
+        "Zeina",
+        "Lina",
+        "Rana",
+        "Yara",
+        "Hala",
+        "Dima",
+        "Lynn",
+        "Jana",
+        "Mira",
+        "Rita",
+        "Celine",
+        "Nadine",
+        "Rania",
+        "Salma",
+        "Rawan",
+        "Dana",
+        "Rima",
+        "Shirine",
+        "Ghalia"
+      ],
+      "last_names": [
+        "Khoury",
+        "Haddad",
+        "Saab",
+        "Gemayel",
+        "Hariri",
+        "Sleiman",
+        "Aoun",
+        "Salameh",
+        "Nasser",
+        "Al-Khatib",
+        "Al-Masri",
+        "Al-Husseini",
+        "Bitar",
+        "Najjar",
+        "Barakat",
+        "Shami",
+        "Kassir",
+        "Zahra",
+        "Mroue",
+        "Darwish",
+        "Boulos",
+        "Sarkis",
+        "Farhat",
+        "Abboud"
+      ]
+    },
+    "persian_afghan": {
+      "male_first": [
+        "Arash",
+        "Kian",
+        "Arman",
+        "Reza",
+        "Sohrab",
+        "Farhad",
+        "Babak",
+        "Navid",
+        "Sina",
+        "Ramin",
+        "Shahin",
+        "Hossein",
+        "Milad",
+        "Behrouz",
+        "Kourosh",
+        "Dariush",
+        "Ahmad",
+        "Massoud",
+        "Zia",
+        "Yama",
+        "Rohullah",
+        "Mirwais",
+        "Farid",
+        "Jamshid"
+      ],
+      "female_first": [
+        "Shirin",
+        "Parisa",
+        "Niloofar",
+        "Roya",
+        "Nazanin",
+        "Maryam",
+        "Sepideh",
+        "Golnaz",
+        "Anahita",
+        "Taraneh",
+        "Setareh",
+        "Sahar",
+        "Marjan",
+        "Mitra",
+        "Azadeh",
+        "Laila",
+        "Zarlasht",
+        "Freshta",
+        "Breshna",
+        "Wagma",
+        "Benafsha",
+        "Khatira",
+        "Tamana",
+        "Spogmai"
+      ],
+      "last_names": [
+        "Tehrani",
+        "Shirazi",
+        "Esfahani",
+        "Hosseini",
+        "Mohammadi",
+        "Rezaei",
+        "Moradi",
+        "Ahmadi",
+        "Karimi",
+        "Rostami",
+        "Ebrahimi",
+        "Soltani",
+        "Jafari",
+        "Hashemi",
+        "Afshar",
+        "Pahlavi",
+        "Wardak",
+        "Popalzai",
+        "Durrani",
+        "Stanikzai",
+        "Mohmand",
+        "Shinwari",
+        "Noorzai",
+        "Hotak"
+      ]
+    },
+    "nigerian": {
+      "male_first": [
+        "Chinedu",
+        "Emeka",
+        "Oluwaseun",
+        "Babatunde",
+        "Tobi",
+        "Ifeanyi",
+        "Chidi",
+        "Femi",
+        "Adeyemi",
+        "Olumide",
+        "Nnamdi",
+        "Obinna",
+        "Kelechi",
+        "Chukwudi",
+        "Kayode",
+        "Ayodele",
+        "Ibrahim",
+        "Abubakar",
+        "Musa",
+        "Usman",
+        "Aliyu",
+        "Suleiman",
+        "Sani",
+        "Bello"
+      ],
+      "female_first": [
+        "Chioma",
+        "Ngozi",
+        "Amaka",
+        "Adanna",
+        "Chiamaka",
+        "Oluchi",
+        "Funke",
+        "Titilayo",
+        "Yetunde",
+        "Folashade",
+        "Simisola",
+        "Blessing",
+        "Precious",
+        "Mercy",
+        "Faith",
+        "Joy",
+        "Zainab",
+        "Fatima",
+        "Amina",
+        "Hauwa",
+        "Halima",
+        "Khadija",
+        "Maryam",
+        "Aisha"
+      ],
+      "last_names": [
+        "Adeyemi",
+        "Okonkwo",
+        "Balogun",
+        "Okafor",
+        "Nwosu",
+        "Adeleke",
+        "Ogunleye",
+        "Eze",
+        "Onyekwere",
+        "Bello",
+        "Abubakar",
+        "Danjuma",
+        "Lawal",
+        "Sanusi",
+        "Mohammed",
+        "Ibrahim",
+        "Ojo",
+        "Akintola",
+        "Babangida",
+        "Chukwu",
+        "Nwachukwu",
+        "Obi",
+        "Omeh",
+        "Ajayi"
+      ]
+    },
+    "west_african_franco": {
+      "male_first": [
+        "Mamadou",
+        "Abdoulaye",
+        "Ousmane",
+        "Cheikh",
+        "Bakary",
+        "Modibo",
+        "Souleymane",
+        "Ibrahima",
+        "Seydou",
+        "Boubacar",
+        "Amadou",
+        "Moussa",
+        "Sekou",
+        "Adama",
+        "Koffi",
+        "Yao",
+        "Didier",
+        "Samuel",
+        "Patrick",
+        "Brice",
+        "Arnaud",
+        "Franck",
+        "Hervé",
+        "Gervais"
+      ],
+      "female_first": [
+        "Fatou",
+        "Awa",
+        "Mariama",
+        "Aminata",
+        "Coumba",
+        "Rokhayatou",
+        "Khady",
+        "Oumou",
+        "Diarra",
+        "Fanta",
+        "Kadiatou",
+        "Assitan",
+        "Saran",
+        "Aïcha",
+        "Akissi",
+        "Affoué",
+        "Christelle",
+        "Estelle",
+        "Sandrine",
+        "Murielle",
+        "Clarisse",
+        "Nathalie",
+        "Béatrice",
+        "Prisca"
+      ],
+      "last_names": [
+        "Diallo",
+        "Traoré",
+        "Diop",
+        "Sow",
+        "Ba",
+        "Ndiaye",
+        "Touré",
+        "Keïta",
+        "Coulibaly",
+        "Cissé",
+        "Koné",
+        "Sissoko",
+        "Camara",
+        "Barry",
+        "Sylla",
+        "Dramé",
+        "Kouassi",
+        "Koffi",
+        "Yao",
+        "Konan",
+        "Bamba",
+        "Ouattara",
+        "Eto'o",
+        "Song"
+      ]
+    },
+    "east_african": {
+      "male_first": [
+        "Juma",
+        "Baraka",
+        "Mwangi",
+        "Otieno",
+        "Kiprono",
+        "Kipchoge",
+        "Omondi",
+        "Kamau",
+        "Wanjala",
+        "Kariuki",
+        "Kiplagat",
+        "Dennis",
+        "Brian",
+        "Kelvin",
+        "Emmanuel",
+        "Moses",
+        "Kassim",
+        "Hamisi",
+        "Bakari",
+        "Athumani",
+        "Shaban",
+        "Rashid",
+        "Ally",
+        "Faraji"
+      ],
+      "female_first": [
+        "Achieng",
+        "Atieno",
+        "Wanjiku",
+        "Nyambura",
+        "Muthoni",
+        "Chebet",
+        "Cherono",
+        "Wangari",
+        "Wairimu",
+        "Akinyi",
+        "Adhiambo",
+        "Faith",
+        "Mercy",
+        "Grace",
+        "Joyce",
+        "Brenda",
+        "Amina",
+        "Zuhura",
+        "Rehema",
+        "Subira",
+        "Mwanaidi",
+        "Fatuma",
+        "Zainabu",
+        "Saida"
+      ],
+      "last_names": [
+        "Mwangi",
+        "Kamau",
+        "Ochieng",
+        "Otieno",
+        "Onyango",
+        "Kipchirchir",
+        "Kiptoo",
+        "Kariuki",
+        "Waweru",
+        "Njoroge",
+        "Maina",
+        "Karanja",
+        "Mugisha",
+        "Uwase",
+        "Kagame",
+        "Gasana",
+        "Massaquoi",
+        "Ssemwogerere",
+        "Mukasa",
+        "Kato",
+        "Bwambale",
+        "Kintu",
+        "Okello",
+        "Otim"
+      ]
+    },
+    "southern_african": {
+      "male_first": [
+        "Sipho",
+        "Bongani",
+        "Thabo",
+        "Sibusiso",
+        "Mandla",
+        "Lethabo",
+        "Kagiso",
+        "Tshepo",
+        "Tendai",
+        "Farai",
+        "Tinashe",
+        "Tatenda",
+        "Blessing",
+        "Gift",
+        "Simba",
+        "Tapiwa",
+        "Luan",
+        "Liam",
+        "Junior",
+        "Keanu",
+        "Francois",
+        "Johan",
+        "Pieter",
+        "Hendrik"
+      ],
+      "female_first": [
+        "Nomvula",
+        "Thandiwe",
+        "Busisiwe",
+        "Zanele",
+        "Lerato",
+        "Kgomotso",
+        "Refilwe",
+        "Nthabiseng",
+        "Chiedza",
+        "Ruvimbo",
+        "Nyasha",
+        "Tariro",
+        "Rutendo",
+        "Kudzanai",
+        "Vimbai",
+        "Precious",
+        "Minke",
+        "Anika",
+        "Chané",
+        "Elri",
+        "Danielle",
+        "Leandri",
+        "Simoné",
+        "Carla"
+      ],
+      "last_names": [
+        "Dlamini",
+        "Nkosi",
+        "Ndlovu",
+        "Khumalo",
+        "Sithole",
+        "Mthembu",
+        "Ngcobo",
+        "Zwane",
+        "Moyo",
+        "Sibanda",
+        "Ncube",
+        "Gumbo",
+        "Mpofu",
+        "Dube",
+        "Nyathi",
+        "Tshuma",
+        "Van der Merwe",
+        "Botha",
+        "Pretorius",
+        "Du Plessis",
+        "Fourie",
+        "Venter",
+        "Coetzee",
+        "Nel"
+      ]
+    },
+    "nordic": {
+      "male_first": [
+        "Lucas",
+        "Liam",
+        "William",
+        "Elias",
+        "Noah",
+        "Hugo",
+        "Oliver",
+        "Oscar",
+        "Adam",
+        "Filip",
+        "Ludvig",
+        "Axel",
+        "Emil",
+        "Leo",
+        "Viktor",
+        "Magnus",
+        "Sander",
+        "Henrik",
+        "Sverre",
+        "Haakon",
+        "Mikkel",
+        "Lasse",
+        "Frederik",
+        "Thor"
+      ],
+      "female_first": [
+        "Alice",
+        "Maja",
+        "Elsa",
+        "Astrid",
+        "Wilma",
+        "Freja",
+        "Olivia",
+        "Selma",
+        "Alma",
+        "Ella",
+        "Ebba",
+        "Signe",
+        "Agnes",
+        "Saga",
+        "Nora",
+        "Ingrid",
+        "Hedda",
+        "Emilie",
+        "Ida",
+        "Sofie",
+        "Emma",
+        "Frida",
+        "Linnea",
+        "Clara"
+      ],
+      "last_names": [
+        "Andersson",
+        "Johansson",
+        "Karlsson",
+        "Nilsson",
+        "Eriksson",
+        "Larsson",
+        "Olsson",
+        "Persson",
+        "Svensson",
+        "Gustafsson",
+        "Hansen",
+        "Johansen",
+        "Olsen",
+        "Larsen",
+        "Andersen",
+        "Pedersen",
+        "Nielsen",
+        "Jensen",
+        "Møller",
+        "Christensen",
+        "Magnússon",
+        "Jónsson",
+        "Einarsson",
+        "Gunnarsson"
+      ]
+    },
+    "west_slavic": {
+      "male_first": [
+        "Antoni",
+        "Jan",
+        "Aleksander",
+        "Franciszek",
+        "Jakub",
+        "Szymon",
+        "Mikołaj",
+        "Filip",
+        "Wojciech",
+        "Stanisław",
+        "Kacper",
+        "Michał",
+        "Piotr",
+        "Tomasz",
+        "Mateusz",
+        "Krzysztof",
+        "Jiří",
+        "Jan",
+        "Petr",
+        "Josef",
+        "Pavel",
+        "Martin",
+        "Jaroslav",
+        "Miroslav"
+      ],
+      "female_first": [
+        "Zuzanna",
+        "Julia",
+        "Zofia",
+        "Maja",
+        "Hanna",
+        "Lena",
+        "Alicja",
+        "Maria",
+        "Oliwia",
+        "Amelia",
+        "Wiktoria",
+        "Aleksandra",
+        "Natalia",
+        "Karolina",
+        "Katarzyna",
+        "Paulina",
+        "Eliška",
+        "Anna",
+        "Tereza",
+        "Adéla",
+        "Karolína",
+        "Natálie",
+        "Viktorie",
+        "Kristýna"
+      ],
+      "last_names": [
+        "Nowak",
+        "Kowalski",
+        "Wiśniewski",
+        "Wójcik",
+        "Kowalczyk",
+        "Kamiński",
+        "Lewandowski",
+        "Zieliński",
+        "Szymański",
+        "Woźniak",
+        "Dąbrowski",
+        "Kozłowski",
+        "Jankowski",
+        "Mazur",
+        "Wojciechowski",
+        "Kwiatkowski",
+        "Novák",
+        "Svoboda",
+        "Novotný",
+        "Dvořák",
+        "Černý",
+        "Procházka",
+        "Kučera",
+        "Veselý"
+      ]
+    },
+    "greek": {
+      "male_first": [
+        "Georgios",
+        "Dimitrios",
+        "Konstantinos",
+        "Ioannis",
+        "Nikolaos",
+        "Panagiotis",
+        "Vasileios",
+        "Christos",
+        "Athanasios",
+        "Michail",
+        "Spyridon",
+        "Alexandros",
+        "Petros",
+        "Stavros",
+        "Stylianos",
+        "Evangelos",
+        "Andreas",
+        "Anastasios",
+        "Theodoros",
+        "Antonios",
+        "Marios",
+        "Ilias",
+        "Sotirios",
+        "Angelos"
+      ],
+      "female_first": [
+        "Maria",
+        "Eleni",
+        "Aikaterini",
+        "Vasiliki",
+        "Sofia",
+        "Angeliki",
+        "Georgia",
+        "Dimitra",
+        "Konstantina",
+        "Paraskevi",
+        "Ioanna",
+        "Evangelia",
+        "Christina",
+        "Panagiota",
+        "Eirini",
+        "Anna",
+        "Despoina",
+        "Stavroula",
+        "Theodora",
+        "Styliani",
+        "Fotini",
+        "Marina",
+        "Alexandra",
+        "Kalliopi"
+      ],
+      "last_names": [
+        "Papadopoulos",
+        "Oikonomou",
+        "Georgiou",
+        "Nikolaou",
+        "Vasiliou",
+        "Konstantinou",
+        "Dimitriou",
+        "Ioannou",
+        "Papageorgiou",
+        "Karagiannis",
+        "Papanikolaou",
+        "Vlachos",
+        "Antoniou",
+        "Alexiou",
+        "Christodoulou",
+        "Bakirtzis",
+        "Stavrou",
+        "Makris",
+        "Giannakopoulos",
+        "Petridis",
+        "Lykos",
+        "Spanos",
+        "Diamantis",
+        "Katsaros"
+      ]
+    },
+    "filipino": {
+      "male_first": [
+        "Joshua",
+        "Angelo",
+        "John Mark",
+        "Christian",
+        "Mark Anthony",
+        "Gabriel",
+        "Nathaniel",
+        "Daniel",
+        "Justine",
+        "Adrian",
+        "Kenneth",
+        "Jerome",
+        "Francis",
+        "Paolo",
+        "Carlo",
+        "Rafael",
+        "Arnel",
+        "Danilo",
+        "Lito",
+        "Bayani",
+        "Datu",
+        "Isagani",
+        "Dakila",
+        "Makisig"
+      ],
+      "female_first": [
+        "Angel",
+        "Princess",
+        "Mary Joy",
+        "Bea",
+        "Nicole",
+        "Althea",
+        "Jasmine",
+        "Kristine",
+        "Marian",
+        "Katrina",
+        "Camille",
+        "Rochelle",
+        "Liza",
+        "Janine",
+        "Patricia",
+        "Christine",
+        "Mutya",
+        "Mayumi",
+        "Tala",
+        "Diwata",
+        "Luningning",
+        "Malaya",
+        "Marikit",
+        "Dalisay"
+      ],
+      "last_names": [
+        "Santos",
+        "Reyes",
+        "Cruz",
+        "Bautista",
+        "Del Rosario",
+        "Gonzales",
+        "Ramos",
+        "Aquino",
+        "Garcia",
+        "Lopez",
+        "Mendoza",
+        "Castillo",
+        "Villanueva",
+        "Fernandez",
+        "Torres",
+        "De Leon",
+        "Dela Cruz",
+        "Tolentino",
+        "Mercado",
+        "Pascual",
+        "Morales",
+        "Flores",
+        "Navarro",
+        "Rivera"
+      ]
+    },
+    "vietnamese": {
+      "male_first": [
+        "Hùng",
+        "Cường",
+        "Dũng",
+        "Nam",
+        "Tuấn",
+        "Minh",
+        "Hoàng",
+        "Long",
+        "Đức",
+        "Hải",
+        "Phong",
+        "Quân",
+        "Sơn",
+        "Trung",
+        "Việt",
+        "Bảo",
+        "Thành",
+        "Hiếu",
+        "Tùng",
+        "Khoa",
+        "Phúc",
+        "Khang",
+        "Thịnh",
+        "Trí"
+      ],
+      "female_first": [
+        "Hoa",
+        "Lan",
+        "Mai",
+        "Cúc",
+        "Trang",
+        "Hương",
+        "Linh",
+        "Thảo",
+        "Hà",
+        "Ngọc",
+        "Phương",
+        "Anh",
+        "Quỳnh",
+        "Thủy",
+        "Hạnh",
+        "Yến",
+        "Nhi",
+        "Vân",
+        "Tâm",
+        "Vy",
+        "Châu",
+        "Diệp",
+        "Oanh",
+        "Như"
+      ],
+      "last_names": [
+        "Nguyễn",
+        "Trần",
+        "Lê",
+        "Phạm",
+        "Hoàng",
+        "Huỳnh",
+        "Phan",
+        "Vũ",
+        "Võ",
+        "Đặng",
+        "Bùi",
+        "Đỗ",
+        "Hồ",
+        "Ngô",
+        "Dương",
+        "Lý",
+        "Đào",
+        "Đoàn",
+        "Vương",
+        "Trịnh",
+        "Trương",
+        "Đinh",
+        "Lâm",
+        "Phùng"
+      ]
+    },
+    "indonesian": {
+      "male_first": [
+        "Budi",
+        "Agus",
+        "Bambang",
+        "Eko",
+        "Joko",
+        "Hendra",
+        "Rizky",
+        "Aditya",
+        "Dimas",
+        "Fajar",
+        "Bayu",
+        "Arif",
+        "Wahyu",
+        "Ilham",
+        "Dedi",
+        "Teguh",
+        "Rian",
+        "Prasetyo",
+        "Surya",
+        "Bintang",
+        "Gilang",
+        "Rafi",
+        "Farhan",
+        "Rangga"
+      ],
+      "female_first": [
+        "Siti",
+        "Sri",
+        "Nur",
+        "Dewi",
+        "Putri",
+        "Indah",
+        "Rina",
+        "Tri",
+        "Lestari",
+        "Maya",
+        "Dian",
+        "Ratna",
+        "Ayu",
+        "Fitri",
+        "Wulandari",
+        "Anggraini",
+        "Nadia",
+        "Sari",
+        "Anisa",
+        "Melati",
+        "Kartika",
+        "Tia",
+        "Gita",
+        "Dina"
+      ],
+      "last_names": [
+        "Kusuma",
+        "Pratama",
+        "Wijaya",
+        "Saputra",
+        "Santoso",
+        "Setiawan",
+        "Utomo",
+        "Nugroho",
+        "Siregar",
+        "Nasution",
+        "Lubis",
+        "Harahap",
+        "Simanjuntak",
+        "Hutapea",
+        "Sitorus",
+        "Panjaitan",
+        "Suhendra",
+        "Wibowo",
+        "Hidayat",
+        "Gunawan",
+        "Susanto",
+        "Purnomo",
+        "Wahyudi",
+        "Hermawan"
+      ]
+    },
+    "malay": {
+      "male_first": [
+        "Muhammad",
+        "Ahmad",
+        "Amir",
+        "Faizal",
+        "Hafiz",
+        "Hakim",
+        "Irfan",
+        "Khairul",
+        "Luqman",
+        "Nazmi",
+        "Razak",
+        "Shahril",
+        "Syazwan",
+        "Zulhilmi",
+        "Danial",
+        "Aiman"
+      ],
+      "female_first": [
+        "Nurul",
+        "Aina",
+        "Farhana",
+        "Fatin",
+        "Izzati",
+        "Nadia",
+        "Natasha",
+        "Suhana",
+        "Syahirah",
+        "Zalikha",
+        "Anis",
+        "Amira",
+        "Safiyyah",
+        "Hanis",
+        "Balqis",
+        "Maisarah"
+      ],
+      "last_names": [
+        "bin Abdullah",
+        "bin Ismail",
+        "bin Othman",
+        "bin Hassan",
+        "bin Ibrahim",
+        "bin Ahmad",
+        "binti Abdullah",
+        "binti Ismail",
+        "binti Othman",
+        "binti Hassan",
+        "binti Ibrahim",
+        "binti Ahmad"
+      ]
+    },
+    "southeast_asian_thai_lao": {
+      "male_first": [
+        "Somchai",
+        "Sompong",
+        "Arthit",
+        "Kittisak",
+        "Natthanan",
+        "Chaiwat",
+        "Kittipong",
+        "Anan",
+        "Prasert",
+        "Thanakorn",
+        "Pichai",
+        "Chatchai",
+        "Piyawat",
+        "Teerasil",
+        "Sarawut",
+        "Wichai"
+      ],
+      "female_first": [
+        "Siriporn",
+        "Kannika",
+        "Patcharee",
+        "Supaporn",
+        "Warunee",
+        "Ratana",
+        "Narumon",
+        "Sasithorn",
+        "Chutima",
+        "Pornthip",
+        "Supaluck",
+        "Wilaiwan",
+        "Kanya",
+        "Sunisa",
+        "Nataya",
+        "Pattama"
+      ],
+      "last_names": [
+        "Saetang",
+        "Saeliu",
+        "Suksomboon",
+        "Suksawat",
+        "Rattanakorn",
+        "Prasertkul",
+        "Charoenwong",
+        "Wongsuwan",
+        "Boonme",
+        "Chantaramongkol",
+        "Srisuk",
+        "Thongdee",
+        "Rattanamanee",
+        "Panyasiri"
+      ]
+    },
+    "horn_african": {
+      "male_first": [
+        "Abebe",
+        "Dawit",
+        "Haile",
+        "Yohannes",
+        "Tewodros",
+        "Kassahun",
+        "Mulugeta",
+        "Berhanu",
+        "Abdi",
+        "Mohamed",
+        "Farah",
+        "Guled",
+        "Warsame",
+        "Hassan",
+        "Ali",
+        "Liban"
+      ],
+      "female_first": [
+        "Almaz",
+        "Tigist",
+        "Meseret",
+        "Hiwot",
+        "Genet",
+        "Marta",
+        "Bethlehem",
+        "Selam",
+        "Faduma",
+        "Asha",
+        "Halima",
+        "Sahra",
+        "Hodman",
+        "Hodan",
+        "Idil",
+        "Filsan"
+      ],
+      "last_names": [
+        "Bekele",
+        "Tadesse",
+        "Worku",
+        "Alemu",
+        "Kebede",
+        "Desta",
+        "Haile",
+        "Girma",
+        "Farah",
+        "Warsame",
+        "Gedi",
+        "Shermarke",
+        "Barre",
+        "Osman",
+        "Jama",
+        "Egal"
+      ]
+    },
+    "south_slavic": {
+      "male_first": [
+        "Luka",
+        "Stefan",
+        "Nikola",
+        "Marko",
+        "Miloš",
+        "Aleksandar",
+        "Dušan",
+        "Lazar",
+        "Ivan",
+        "Filip",
+        "Bojan",
+        "Goran",
+        "Zoran",
+        "Petar",
+        "Milan",
+        "Dragan"
+      ],
+      "female_first": [
+        "Milica",
+        "Jelena",
+        "Marija",
+        "Ana",
+        "Jovana",
+        "Katarina",
+        "Teodora",
+        "Ivana",
+        "Dunja",
+        "Sara",
+        "Tara",
+        "Sofija",
+        "Maja",
+        "Bojana",
+        "Dragana",
+        "Snežana"
+      ],
+      "last_names": [
+        "Jovanović",
+        "Petrović",
+        "Nikolić",
+        "Ilić",
+        "Đorđević",
+        "Pavlović",
+        "Marković",
+        "Popović",
+        "Stojanović",
+        "Živković",
+        "Horvat",
+        "Kovačević",
+        "Babić",
+        "Marić",
+        "Jurić",
+        "Novak"
+      ]
+    },
+    "hungarian": {
+      "male_first": [
+        "Bence",
+        "Máté",
+        "Levente",
+        "Noel",
+        "Marcell",
+        "Dániel",
+        "Ádám",
+        "Dávid",
+        "Milán",
+        "Áron",
+        "Zsombor",
+        "Botond",
+        "Patrik",
+        "Balázs",
+        "Tamás",
+        "Attila"
+      ],
+      "female_first": [
+        "Hanna",
+        "Anna",
+        "Zoé",
+        "Lili",
+        "Emma",
+        "Luca",
+        "Zsófia",
+        "Boglárka",
+        "Jázmin",
+        "Nóra",
+        "Mira",
+        "Laura",
+        "Dorka",
+        "Viktória",
+        "Eszter",
+        "Réka"
+      ],
+      "last_names": [
+        "Nagy",
+        "Kovács",
+        "Tóth",
+        "Szabó",
+        "Horváth",
+        "Varga",
+        "Kiss",
+        "Molnár",
+        "Németh",
+        "Farkas",
+        "Balogh",
+        "Papp",
+        "Takács",
+        "Juhász",
+        "Lakatos",
+        "Mészáros"
+      ]
+    },
+    "romanian": {
+      "male_first": [
+        "Andrei",
+        "Alexandru",
+        "Stefan",
+        "David",
+        "Mihai",
+        "Ionut",
+        "Gabriel",
+        "Matei",
+        "Cristian",
+        "Florin",
+        "Radu",
+        "Bogdan",
+        "Vlad",
+        "Cosmin",
+        "Adrian",
+        "Daniel"
+      ],
+      "female_first": [
+        "Maria",
+        "Elena",
+        "Ioana",
+        "Andreea",
+        "Alexandra",
+        "Ana",
+        "Stefania",
+        "Gabriela",
+        "Mihaela",
+        "Daniela",
+        "Alina",
+        "Raluca",
+        "Diana",
+        "Bianca",
+        "Roxana",
+        "Laura"
+      ],
+      "last_names": [
+        "Popa",
+        "Radu",
+        "Popescu",
+        "Ionescu",
+        "Nistor",
+        "Constantin",
+        "Stan",
+        "Dumitru",
+        "Gheorghe",
+        "Dobre",
+        "Marin",
+        "Tudor",
+        "Stoica",
+        "Diaconu",
+        "Munteanu",
+        "Florea"
+      ]
+    },
+    "baltic_finnic": {
+      "male_first": [
+        "Eino",
+        "Oliver",
+        "Väinö",
+        "Leo",
+        "Elias",
+        "Onni",
+        "Venla",
+        "Toivo",
+        "Arturs",
+        "Roberts",
+        "Gustavs",
+        "Jānis",
+        "Mantas",
+        "Matas",
+        "Lukas",
+        "Jokūbas"
+      ],
+      "female_first": [
+        "Aino",
+        "Sofia",
+        "Helmi",
+        "Ilona",
+        "Emilia",
+        "Aada",
+        "Kerttu",
+        "Linnea",
+        "Emīlija",
+        "Sofija",
+        "Marta",
+        "Alise",
+        "Emilija",
+        "Vilte",
+        "Gabija",
+        "Leja"
+      ],
+      "last_names": [
+        "Korhonen",
+        "Virtanen",
+        "Mäkinen",
+        "Nieminen",
+        "Mäkelä",
+        "Hämäläinen",
+        "Laine",
+        "Koskinen",
+        "Bērziņš",
+        "Kalniņš",
+        "Ozoliņš",
+        "Jansons",
+        "Kazlauskas",
+        "Petrauskas",
+        "Jankauskas",
+        "Stankevičius"
+      ]
+    },
+    "finnish": {
+      "male_first": [
+        "Eino",
+        "Oliver",
+        "Väinö",
+        "Leo",
+        "Elias",
+        "Onni",
+        "Ilmari",
+        "Matias",
+        "Lauri",
+        "Antti"
+      ],
+      "female_first": [
+        "Aino",
+        "Sofia",
+        "Helmi",
+        "Ilona",
+        "Emilia",
+        "Aada",
+        "Kerttu",
+        "Venla",
+        "Siiri",
+        "Sanni"
+      ],
+      "last_names": [
+        "Korhonen",
+        "Virtanen",
+        "Mäkinen",
+        "Nieminen",
+        "Mäkelä",
+        "Hämäläinen",
+        "Laine",
+        "Koskinen",
+        "Heikkinen",
+        "Järvinen"
+      ]
+    },
+    "irish_celtic": {
+      "male_first": [
+        "Jack",
+        "James",
+        "Noah",
+        "Daniel",
+        "Conor",
+        "Finn",
+        "Liam",
+        "Fionn",
+        "Cillian",
+        "Oisín",
+        "Patrick",
+        "Seán",
+        "Cian",
+        "Darragh",
+        "Tadhg",
+        "Callum"
+      ],
+      "female_first": [
+        "Emily",
+        "Grace",
+        "Fiadh",
+        "Sophie",
+        "Hannah",
+        "Amelia",
+        "Ava",
+        "Isla",
+        "Freya",
+        "Aoife",
+        "Saoirse",
+        "Caoimhe",
+        "Ciara",
+        "Niamh",
+        "Róisín",
+        "Sadhbh"
+      ],
+      "last_names": [
+        "Murphy",
+        "Kelly",
+        "O'Brien",
+        "Ryan",
+        "O'Connor",
+        "Walsh",
+        "O'Sullivan",
+        "McCarthy",
+        "Byrne",
+        "Doyle",
+        "Lynch",
+        "O'Neill",
+        "Reilly",
+        "Dunne",
+        "Brennan",
+        "Gallagher"
+      ]
+    },
+    "iberian_portuguese": {
+      "male_first": [
+        "Francisco",
+        "Afonso",
+        "João",
+        "Tomás",
+        "Duarte",
+        "Lourenço",
+        "Rodrigo",
+        "Martim",
+        "Santiago",
+        "Tiago",
+        "Miguel",
+        "Gabriel",
+        "Guilherme",
+        "Lucas",
+        "Salvador",
+        "Gonçalo"
+      ],
+      "female_first": [
+        "Maria",
+        "Leonor",
+        "Matilde",
+        "Beatriz",
+        "Carolina",
+        "Mariana",
+        "Ana",
+        "Sofia",
+        "Francisca",
+        "Inês",
+        "Margarida",
+        "Clara",
+        "Lara",
+        "Laura",
+        "Alice",
+        "Benedita"
+      ],
+      "last_names": [
+        "Silva",
+        "Santos",
+        "Ferreira",
+        "Pereira",
+        "Oliveira",
+        "Costa",
+        "Rodrigues",
+        "Martins",
+        "Jesus",
+        "Sousa",
+        "Fernandes",
+        "Gonçalves",
+        "Gomes",
+        "Lopes",
+        "Marques",
+        "Alves"
+      ]
+    },
+    "iberian_spanish": {
+      "male_first": [
+        "Hugo",
+        "Mateo",
+        "Martín",
+        "Lucas",
+        "Leo",
+        "Daniel",
+        "Alejandro",
+        "Manuel",
+        "Pablo",
+        "Álvaro",
+        "Adrián",
+        "Enzo",
+        "Mario",
+        "Diego",
+        "David",
+        "Oliver"
+      ],
+      "female_first": [
+        "Lucía",
+        "Sofía",
+        "Martina",
+        "María",
+        "Julia",
+        "Paula",
+        "Valeria",
+        "Emma",
+        "Daniela",
+        "Carla",
+        "Alba",
+        "Noa",
+        "Lola",
+        "Claudia",
+        "Carmen",
+        "Sara"
+      ],
+      "last_names": [
+        "García",
+        "Rodríguez",
+        "González",
+        "Fernández",
+        "López",
+        "Martínez",
+        "Sánchez",
+        "Pérez",
+        "Gómez",
+        "Martín",
+        "Jiménez",
+        "Ruiz",
+        "Hernández",
+        "Diaz",
+        "Moreno",
+        "Álvarez"
+      ]
+    },
+    "benelux": {
+      "male_first": [
+        "Noah",
+        "Sem",
+        "Liam",
+        "Lucas",
+        "Daan",
+        "Finn",
+        "Levi",
+        "Milan",
+        "Bram",
+        "Mees",
+        "Jesse",
+        "Luuk",
+        "Sam",
+        "Thomas",
+        "Lars",
+        "Thijs"
+      ],
+      "female_first": [
+        "Emma",
+        "Mila",
+        "Sophie",
+        "Tess",
+        "Julia",
+        "Sara",
+        "Zoë",
+        "Evi",
+        "Fenno",
+        "Lieke",
+        "Eva",
+        "Noor",
+        "Lotte",
+        "Yara",
+        "Liv",
+        "Fleur"
+      ],
+      "last_names": [
+        "De Jong",
+        "Jansen",
+        "De Vries",
+        "Van de Berg",
+        "Van Dijk",
+        "Bakker",
+        "Janssen",
+        "Visser",
+        "Smit",
+        "Meijer",
+        "De Boer",
+        "Mulder",
+        "De Groot",
+        "Bos",
+        "Vos",
+        "Peters"
+      ]
+    },
+    "hebrew": {
+      "male_first": [
+        "David",
+        "Ariel",
+        "Lavi",
+        "Noam",
+        "Uri",
+        "Eitan",
+        "Daniel",
+        "Yehonatan",
+        "Itamar",
+        "Omer",
+        "Yosef",
+        "Ori",
+        "Refael",
+        "Ari",
+        "Moshe",
+        "Ido"
+      ],
+      "female_first": [
+        "Tamar",
+        "Maya",
+        "Avigail",
+        "Noa",
+        "Sarah",
+        "Ayala",
+        "Yael",
+        "Lia",
+        "Ella",
+        "Shira",
+        "Adel",
+        "Rom",
+        "Roni",
+        "Hila",
+        "Nomi",
+        "Tal"
+      ],
+      "last_names": [
+        "Cohen",
+        "Levi",
+        "Mizrahi",
+        "Peretz",
+        "Biton",
+        "Dahan",
+        "Avraham",
+        "Friedman",
+        "Malka",
+        "Azulay",
+        "Katz",
+        "Yosef",
+        "David",
+        "Amar",
+        "Omer",
+        "Shapiro"
+      ]
+    },
+    "sri_lankan": {
+      "male_first": [
+        "Kasun",
+        "Nuwan",
+        "Dinesh",
+        "Chamara",
+        "Roshan",
+        "Sanjaya",
+        "Asanka",
+        "Pradeep",
+        "Lahiru",
+        "Thilina",
+        "Mahela",
+        "Kumar",
+        "Sanath",
+        "Lasith",
+        "Angelo",
+        "Wanindu"
+      ],
+      "female_first": [
+        "Dilani",
+        "Nirosha",
+        "Anoma",
+        "Kavindi",
+        "Sachini",
+        "Tharushi",
+        "Sanduni",
+        "Chamari",
+        "Oshadi",
+        "Hiruni",
+        "Niluka",
+        "Priyanka",
+        "Menaka",
+        "Ishara",
+        "Dinusha",
+        "Malsha"
+      ],
+      "last_names": [
+        "Perera",
+        "Fernando",
+        "Silva",
+        "De Silva",
+        "Jayawardena",
+        "Rajapaksa",
+        "Bandara",
+        "Senanayake",
+        "Dissanayake",
+        "Wickramasinghe",
+        "Gunasekara",
+        "Karunaratne",
+        "Mendis",
+        "Herath",
+        "Ranatunga",
+        "Kumara"
+      ]
+    },
+    "nepali": {
+      "male_first": [
+        "Aayush",
+        "Bipin",
+        "Bibek",
+        "Suman",
+        "Kiran",
+        "Roshan",
+        "Dipendra",
+        "Pradeep",
+        "Sagar",
+        "Nirajan",
+        "Santosh",
+        "Ashish",
+        "Anil",
+        "Bikash",
+        "Manoj",
+        "Ramesh"
+      ],
+      "female_first": [
+        "Sita",
+        "Gita",
+        "Pooja",
+        "Aarati",
+        "Sushma",
+        "Bipana",
+        "Sabina",
+        "Sunita",
+        "Manisha",
+        "Alisha",
+        "Samikshya",
+        "Anjali",
+        "Roshani",
+        "Pramila",
+        "Deepa",
+        "Kabita"
+      ],
+      "last_names": [
+        "Sharma",
+        "Thapa",
+        "Shrestha",
+        "Adhikari",
+        "Karki",
+        "Rai",
+        "Gurung",
+        "Tamang",
+        "Bhandari",
+        "Basnet",
+        "Magar",
+        "Poudel",
+        "Subedi",
+        "Bhattarai",
+        "Ghimire",
+        "Dahal"
+      ]
+    },
+    "caribbean_anglo": {
+      "male_first": [
+        "Usain",
+        "Damian",
+        "Kemar",
+        "Jevaughn",
+        "Andre",
+        "Dwayne",
+        "Sheldon",
+        "Kevon",
+        "Rohan",
+        "Marlon",
+        "Dwight",
+        "Lennox",
+        "Kofi",
+        "Tevin",
+        "Jamar",
+        "Keron"
+      ],
+      "female_first": [
+        "Shelly-Ann",
+        "Shanice",
+        "Sheniqua",
+        "Tia",
+        "Keisha",
+        "Latoya",
+        "Shantel",
+        "Tamika",
+        "Aaliyah",
+        "Brianna",
+        "Monique",
+        "Shari",
+        "Abigail",
+        "Candice",
+        "Rochelle",
+        "Tanisha"
+      ],
+      "last_names": [
+        "Campbell",
+        "Brown",
+        "Smith",
+        "Johnson",
+        "Williams",
+        "Clarke",
+        "Grant",
+        "Gordon",
+        "Morgan",
+        "Powell",
+        "Hylton",
+        "Richards",
+        "Francis",
+        "Green",
+        "Thompson",
+        "Wright"
+      ]
+    },
+    "central_asian_turkic": {
+      "male_first": [
+        "Alikhan",
+        "Nurbol",
+        "Timur",
+        "Rustam",
+        "Azamat",
+        "Sanzhar",
+        "Daniyar",
+        "Erzhan",
+        "Bekzod",
+        "Jasur",
+        "Otabek",
+        "Shavkat",
+        "Sardor",
+        "Umid",
+        "Farrukh",
+        "Sherzod"
+      ],
+      "female_first": [
+        "Aruzhan",
+        "Madina",
+        "Aigerim",
+        "Ayazhan",
+        "Dinara",
+        "Kamila",
+        "Zarina",
+        "Gulzhan",
+        "Sevara",
+        "Nilufar",
+        "Dilnoza",
+        "Shahzoda",
+        "Gulnora",
+        "Feruza",
+        "Malika",
+        "Munisa"
+      ],
+      "last_names": [
+        "Akhmetov",
+        "Ospanov",
+        "Kusainov",
+        "Kim",
+        "Aliev",
+        "Suleimenov",
+        "Ibragimov",
+        "Nazarbaev",
+        "Karimov",
+        "Rahimov",
+        "Tashpulatov",
+        "Yusupov",
+        "Khamidov",
+        "Abdullaev",
+        "Mirzayev",
+        "Ismailov"
+      ]
+    },
+    "pacific_polynesian": {
+      "male_first": [
+        "Sione",
+        "Tevita",
+        "Kelepi",
+        "Tupou",
+        "Taniela",
+        "Inoke",
+        "Paula",
+        "Mosese",
+        "Junior",
+        "Malo",
+        "Tavita",
+        "Ioane",
+        "Fa'a",
+        "Latu",
+        "Semisi",
+        "Viliami"
+      ],
+      "female_first": [
+        "Mele",
+        "Ana",
+        "Lupe",
+        "Sina",
+        "Tala",
+        "Lina",
+        "Elenoa",
+        "Mere",
+        "Salote",
+        "Kasanita",
+        "Fane",
+        "Moana",
+        "Lani",
+        "Milika",
+        "Adi",
+        "Litiana"
+      ],
+      "last_names": [
+        "Finau",
+        "Tuipulotu",
+        "Naufahu",
+        "Veikoso",
+        "Latu",
+        "Fifita",
+        "Taumalolo",
+        "Vunipola",
+        "Mata'afa",
+        "Tuilagi",
+        "Savea",
+        "Nonu",
+        "Koroibete",
+        "Radradra",
+        "Tuisova",
+        "Kunatani"
+      ]
+    },
+    "lusophone_african": {
+      "male_first": [
+        "Manuel",
+        "António",
+        "João",
+        "José",
+        "Francisco",
+        "Afonso",
+        "Edson",
+        "Gelson",
+        "Mário",
+        "Helder",
+        "Gilberto",
+        "Paulo",
+        "Valdemar",
+        "Celso",
+        "Euclides",
+        "Mauro"
+      ],
+      "female_first": [
+        "Maria",
+        "Ana",
+        "Teresa",
+        "Helena",
+        "Isabel",
+        "Esperança",
+        "Luísa",
+        "Francisca",
+        "Catarina",
+        "Nair",
+        "Yara",
+        "Neide",
+        "Katia",
+        "Liliana",
+        "Samira",
+        "Edna"
+      ],
+      "last_names": [
+        "Dos Santos",
+        "Neto",
+        "Fernandes",
+        "Lopes",
+        "Pinto",
+        "Cardoso",
+        "Mendes",
+        "Tavares",
+        "Cabral",
+        "Vieira",
+        "Semedo",
+        "Furtado",
+        "Moniz",
+        "Borges",
+        "Teixeira",
+        "Gomes"
+      ]
+    },
+    "armenian": {
+      "male_first": [
+        "Arman",
+        "Davit",
+        "Narek",
+        "Hayk",
+        "Gor",
+        "Tigran",
+        "Samvel",
+        "Arthur",
+        "Levon",
+        "Karen"
+      ],
+      "female_first": [
+        "Ani",
+        "Anahit",
+        "Mariam",
+        "Lilit",
+        "Elen",
+        "Mane",
+        "Milena",
+        "Nare",
+        "Gayane",
+        "Sona"
+      ],
+      "last_names": [
+        "Sargsyan",
+        "Harutyunyan",
+        "Hovhannisyan",
+        "Hakobyan",
+        "Grigoryan",
+        "Petrosyan",
+        "Gevorgyan",
+        "Avagyan",
+        "Ghazaryan",
+        "Vardanyan"
+      ]
+    },
+    "georgian": {
+      "male_first": [
+        "Giorgi",
+        "Davit",
+        "Nikoloz",
+        "Luka",
+        "Aleksandre",
+        "Irakli",
+        "Zurab",
+        "Tornike",
+        "Levan",
+        "Saba"
+      ],
+      "female_first": [
+        "Nino",
+        "Mariam",
+        "Ana",
+        "Tamar",
+        "Elene",
+        "Salome",
+        "Natia",
+        "Khatia",
+        "Lika",
+        "Teona"
+      ],
+      "last_names": [
+        "Beridze",
+        "Kapanadze",
+        "Gelashvili",
+        "Maisuradze",
+        "Giorgadze",
+        "Lomidze",
+        "Tsiklauri",
+        "Bolkvadze",
+        "Nozadze",
+        "Kvaratskhelia"
+      ]
+    },
+    "mongolian": {
+      "male_first": [
+        "Bat-Erdene",
+        "Temüjin",
+        "Chinggis",
+        "Bold",
+        "Otgonbayar",
+        "Ganzorig",
+        "Munkhbat",
+        "Erdene"
+      ],
+      "female_first": [
+        "Altantsetseg",
+        "Bayarmaa",
+        "Enkhtuyaa",
+        "Nomin",
+        "Khulan",
+        "Saruul",
+        "Solongo",
+        "Uranchimeg"
+      ],
+      "last_names": [
+        "Bat",
+        "Dorj",
+        "Boldbaatar",
+        "Tseren",
+        "Davaadorj",
+        "Lkhagvasuren",
+        "Nyamdorj",
+        "Sukhbaatar"
+      ]
+    },
+    "myanmar": {
+      "male_first": [
+        "Aung",
+        "Kyaw",
+        "Min",
+        "Zaw",
+        "Ko",
+        "Thura",
+        "Zayar",
+        "Hein",
+        "Myo",
+        "Tun"
+      ],
+      "female_first": [
+        "Hnin",
+        "Aye",
+        "Thida",
+        "Su",
+        "May",
+        "Phyu",
+        "Khin",
+        "Ei",
+        "Yamin",
+        "Nilar"
+      ],
+      "last_names": [
+        "San",
+        "Lin",
+        "Oo",
+        "Win",
+        "Naing",
+        "Soe",
+        "Lwin",
+        "Htun",
+        "Khaing",
+        "Swe"
+      ]
+    },
+    "southeast_asian_khmer": {
+      "male_first": [
+        "Sophea",
+        "Dara",
+        "Piseth",
+        "Vannak",
+        "Rithy",
+        "Borey",
+        "Chanthou",
+        "Sokha"
+      ],
+      "female_first": [
+        "Kalyan",
+        "Neary",
+        "Bopha",
+        "Sreymom",
+        "Theary",
+        "Kunthea",
+        "Rachana",
+        "Kolab"
+      ],
+      "last_names": [
+        "Sok",
+        "Chan",
+        "Chea",
+        "Meas",
+        "Keo",
+        "Heng",
+        "Kim",
+        "Lim",
+        "Ros",
+        "Chhim"
+      ]
+    },
+    "himalayan": {
+      "male_first": [
+        "Tenzin",
+        "Jigme",
+        "Karma",
+        "Dorji",
+        "Sonam",
+        "Pema",
+        "Ugyen",
+        "Kinley",
+        "Sangay",
+        "Tshering"
+      ],
+      "female_first": [
+        "Dechen",
+        "Choden",
+        "Wangmo",
+        "Lhamo",
+        "Deki",
+        "Yeshey",
+        "Tshering",
+        "Karma",
+        "Zangmo",
+        "Tashi"
+      ],
+      "last_names": [
+        "Dorji",
+        "Wangchuck",
+        "Tshering",
+        "Tobgay",
+        "Norbu",
+        "Gyeltshen",
+        "Thinley",
+        "Namgyal"
+      ]
+    },
+    "sahel_african": {
+      "male_first": [
+        "Idriss",
+        "Mahamat",
+        "Haroun",
+        "Abakar",
+        "Brahim",
+        "Issa",
+        "Hassan",
+        "Djibril",
+        "Oumar"
+      ],
+      "female_first": [
+        "Fatimé",
+        "Amina",
+        "Mariam",
+        "Haoua",
+        "Zara",
+        "Khadidja",
+        "Achta",
+        "Zenaba",
+        "Fadoul"
+      ],
+      "last_names": [
+        "Deby",
+        "Mahamat",
+        "Abdelkerim",
+        "Djimé",
+        "Souleyman",
+        "Tahir",
+        "Kader",
+        "Ousmane",
+        "N'Garmbaye"
+      ]
+    },
+    "albanian": {
+      "male_first": [
+        "Arben",
+        "Besnik",
+        "Dritan",
+        "Ilir",
+        "Kreshnik",
+        "Luan",
+        "Valon",
+        "Agim",
+        "Endrit",
+        "Genti"
+      ],
+      "female_first": [
+        "Blerta",
+        "Dora",
+        "Elira",
+        "Flutura",
+        "Lindita",
+        "Majlinda",
+        "Teuta",
+        "Vera",
+        "Yllka",
+        "Besa"
+      ],
+      "last_names": [
+        "Hoxha",
+        "Shehu",
+        "Krasniqi",
+        "Gashi",
+        "Berisha",
+        "Rama",
+        "Balla",
+        "Mehmeti",
+        "Kelmendi",
+        "Morina"
+      ]
+    },
+    "south_asian_island": {
+      "male_first": [
+        "Ibrahim",
+        "Mohamed",
+        "Ahmed",
+        "Ali",
+        "Hussain",
+        "Hassan",
+        "Abdullah",
+        "Ismail"
+      ],
+      "female_first": [
+        "Aishath",
+        "Mariyam",
+        "Fathimath",
+        "Aminath",
+        "Hawwa",
+        "Zulaikha",
+        "Shameema",
+        "Khadeeja"
+      ],
+      "last_names": [
+        "Nasheed",
+        "Waheed",
+        "Solih",
+        "Gayoom",
+        "Zahir",
+        "Shafeeq",
+        "Rasheed",
+        "Jameel"
+      ]
+    },
+    "turkic_caucasus": {
+      "male_first": [
+        "Ali",
+        "Murad",
+        "Elmir",
+        "Tural",
+        "Rashad",
+        "Farid",
+        "Eldar",
+        "Vugar",
+        "Kamran",
+        "Orkhan"
+      ],
+      "female_first": [
+        "Leyla",
+        "Aysel",
+        "Gunel",
+        "Nigar",
+        "Sevda",
+        "Sevinj",
+        "Konul",
+        "Samira",
+        "Leman",
+        "Fidan"
+      ],
+      "last_names": [
+        "Mammadov",
+        "Aliyev",
+        "Huseynov",
+        "Hasanov",
+        "Guliyev",
+        "Ismayilov",
+        "Ahmadov",
+        "Abbasov",
+        "Rzayev"
+      ]
+    },
+    "west_african_anglo": {
+      "male_first": [
+        "Kwame",
+        "Kofi",
+        "Yaw",
+        "Kwesi",
+        "Kojo",
+        "Ekow",
+        "Samuel",
+        "Emmanuel",
+        "David",
+        "Michael",
+        "Ebrima",
+        "Lamin",
+        "Momodou"
+      ],
+      "female_first": [
+        "Akosua",
+        "Adwoa",
+        "Abena",
+        "Afia",
+        "Yaa",
+        "Ama",
+        "Grace",
+        "Mercy",
+        "Patience",
+        "Fatou",
+        "Isatou",
+        "Binta"
+      ],
+      "last_names": [
+        "Mensah",
+        "Osei",
+        "Boateng",
+        "Appiah",
+        "Agyemang",
+        "Asante",
+        "Owusu",
+        "Frimpong",
+        "Jallow",
+        "Ceesay",
+        "Touray",
+        "Kamara"
+      ]
+    }
+  }
+}

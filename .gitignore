@@ -1,0 +1,12 @@
+# Environment & Secrets
+.env
+
+# Zip builds
+*.zip
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store

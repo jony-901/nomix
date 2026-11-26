@@ -1,0 +1,10 @@
+# Bot Credentials & Reference
+
+- **Bot API Token:** `9197793802:AAE1YqPe3LuoSvRgqh9dIlq1EDG7oI8WZ-4`
+- **Saved Date:** 2026-11-26
+- **Project Directory:** `/Users/jony/.gemini/antigravity/scratch/world-name-generator-bot/`
+- **Run Command:**
+  ```bash
+  cd /Users/jony/.gemini/antigravity/scratch/world-name-generator-bot
+  python3 bot.py 9197793802:AAE1YqPe3LuoSvRgqh9dIlq1EDG7oI8WZ-4
+  ```
