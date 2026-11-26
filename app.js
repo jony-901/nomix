@@ -584,30 +584,59 @@ function getRandomItem(arr) {
 }
 
 /**
- * Copy to Clipboard
+ * Bulletproof Copy to Clipboard Utility
+ * Works seamlessly on HTTP, HTTPS, WebViews, and Mobile Browsers
  */
 function copyToClipboard(text) {
+  if (!text) return;
+
+  // 1. Try modern navigator.clipboard if available
   if (navigator.clipboard && window.isSecureContext) {
-    navigator.clipboard.writeText(text).then(showCopyAlert);
+    navigator.clipboard.writeText(text)
+      .then(() => showCopyAlert())
+      .catch(() => fallbackCopy(text));
   } else {
-    const textArea = document.createElement('textarea');
-    textArea.value = text;
-    textArea.style.position = 'fixed';
-    textArea.style.left = '-999999px';
-    document.body.appendChild(textArea);
-    textArea.focus();
-    textArea.select();
-    try {
-      document.execCommand('copy');
-      showCopyAlert();
-    } catch (err) {
-      console.error('Fallback copy failed', err);
-    }
-    document.body.removeChild(textArea);
+    // 2. Reliable textarea fallback for non-HTTPS / WebView
+    fallbackCopy(text);
   }
 }
 
+function fallbackCopy(text) {
+  const textArea = document.createElement('textarea');
+  textArea.value = text;
+  
+  // Ensure it works on iOS / Safari / Android
+  textArea.style.position = 'fixed';
+  textArea.style.top = '0';
+  textArea.style.left = '0';
+  textArea.style.width = '2em';
+  textArea.style.height = '2em';
+  textArea.style.padding = '0';
+  textArea.style.border = 'none';
+  textArea.style.outline = 'none';
+  textArea.style.boxShadow = 'none';
+  textArea.style.background = 'transparent';
+  textArea.setAttribute('readonly', '');
+
+  document.body.appendChild(textArea);
+  textArea.focus();
+  textArea.select();
+  textArea.setSelectionRange(0, 99999); // Mobile selection support
+
+  try {
+    const successful = document.execCommand('copy');
+    if (successful) {
+      showCopyAlert();
+    }
+  } catch (err) {
+    console.error('Copy command error:', err);
+  }
+
+  document.body.removeChild(textArea);
+}
+
 function showCopyAlert() {
+  if (!copyNotice) return;
   copyNotice.style.display = 'inline';
   setTimeout(() => {
     copyNotice.style.display = 'none';
