@@ -455,14 +455,26 @@ function generateNames() {
 
     const li = document.createElement('li');
     li.className = 'name-item';
+    li.setAttribute('title', 'ক্লিক করে কপি করুন');
     li.innerHTML = `
-      <span><span class="gender-icon">${icon}</span>${fullName}</span>
-      <button class="copy-single-btn" title="Copy name" data-name="${fullName}">📋</button>
+      <span class="name-text-wrap"><span class="gender-icon">${icon}</span><span class="name-val">${fullName}</span></span>
+      <span class="copy-badge">📋 Copy</span>
     `;
 
-    li.querySelector('.copy-single-btn').addEventListener('click', (e) => {
-      e.stopPropagation();
+    // Click on entire name card to copy
+    li.addEventListener('click', () => {
       copyToClipboard(fullName);
+      // Visual feedback on card
+      const badge = li.querySelector('.copy-badge');
+      const prevText = badge.textContent;
+      badge.textContent = '✓ Copied';
+      badge.classList.add('copied');
+      li.classList.add('copied-card');
+      setTimeout(() => {
+        badge.textContent = prevText;
+        badge.classList.remove('copied');
+        li.classList.remove('copied-card');
+      }, 1500);
     });
 
     nameResultsList.appendChild(li);
@@ -530,9 +542,9 @@ function generateBatchWishlist() {
       </div>
       <ul class="name-results-list">
         ${countryNames.map(n => `
-          <li class="name-item">
-            <span><span class="gender-icon">${n.icon}</span>${n.full}</span>
-            <button class="copy-single-btn" data-name="${n.full}">📋</button>
+          <li class="name-item" title="ক্লিক করে কপি করুন" data-name="${n.full}">
+            <span class="name-text-wrap"><span class="gender-icon">${n.icon}</span><span class="name-val">${n.full}</span></span>
+            <span class="copy-badge">📋 Copy</span>
           </li>
         `).join('')}
       </ul>
@@ -543,10 +555,20 @@ function generateBatchWishlist() {
       copyToClipboard(countryNames.map(n => n.full).join('\n'));
     });
 
-    // Copy single items
-    block.querySelectorAll('.copy-single-btn').forEach(btn => {
-      btn.addEventListener('click', () => {
-        copyToClipboard(btn.getAttribute('data-name'));
+    // Click anywhere on name item in batch to copy
+    block.querySelectorAll('.name-item').forEach(item => {
+      item.addEventListener('click', () => {
+        const val = item.getAttribute('data-name');
+        copyToClipboard(val);
+        const badge = item.querySelector('.copy-badge');
+        badge.textContent = '✓ Copied';
+        badge.classList.add('copied');
+        item.classList.add('copied-card');
+        setTimeout(() => {
+          badge.textContent = '📋 Copy';
+          badge.classList.remove('copied');
+          item.classList.remove('copied-card');
+        }, 1500);
       });
     });
 
