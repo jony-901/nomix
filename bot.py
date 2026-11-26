@@ -31,13 +31,13 @@ POPULAR_CODES = ["BD", "US", "GB", "IN", "JP", "DE"]
 # User states: chat_id -> dict
 USER_STATES: Dict[int, Dict[str, any]] = {}
 
-# Bot Commands List for Telegram Menu Button
+# Bot Commands List for Telegram Menu Button (Sleek & Aesthetic)
 BOT_COMMANDS = [
-    {"command": "start", "description": "🏠 মূল মেনু / কান্ট্রি লিস্ট ওপেন করুন"},
-    {"command": "search", "description": "🔍 যেকোনো দেশের নাম সার্চ করুন"},
-    {"command": "popular", "description": "⭐ টপ ও জনপ্রিয় দেশসমূহ দেখুন"},
-    {"command": "recents", "description": "🕒 আপনার রিসেন্ট ব্যবহৃত দেশসমূহ"},
-    {"command": "help", "description": "📖 ব্যবহারের নিয়ম ও সাহায্য"},
+    {"command": "start", "description": "🌍 Explore Countries & Names"},
+    {"command": "search", "description": "🔎 Instant Country Search"},
+    {"command": "popular", "description": "🔥 Top Featured Nations"},
+    {"command": "recents", "description": "⚡ Quick Recent History"},
+    {"command": "help", "description": "💡 Guide & Instructions"},
 ]
 
 
