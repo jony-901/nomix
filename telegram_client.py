@@ -112,3 +112,17 @@ class TelegramBot:
         if res and res.get("ok"):
             return res.get("result", [])
         return []
+
+    def set_my_commands(self, commands: List[Dict[str, str]]) -> Optional[Dict[str, Any]]:
+        """Set Telegram bot command menu (the / menu button in chat)."""
+        return self.call_api("setMyCommands", {"commands": commands})
+
+    def set_chat_menu_button(self, chat_id: Optional[int] = None, menu_button: Optional[Dict[str, Any]] = None) -> Optional[Dict[str, Any]]:
+        """Set the chat menu button (e.g. Web App or Commands)."""
+        data: Dict[str, Any] = {}
+        if chat_id:
+            data["chat_id"] = chat_id
+        if menu_button:
+            data["menu_button"] = menu_button
+        return self.call_api("setChatMenuButton", data)
+

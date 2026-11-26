@@ -31,6 +31,16 @@ POPULAR_CODES = ["BD", "US", "GB", "IN", "JP", "DE"]
 # User states: chat_id -> dict
 USER_STATES: Dict[int, Dict[str, any]] = {}
 
+# Bot Commands List for Telegram Menu Button
+BOT_COMMANDS = [
+    {"command": "start", "description": "🏠 মূল মেনু / কান্ট্রি লিস্ট ওপেন করুন"},
+    {"command": "search", "description": "🔍 যেকোনো দেশের নাম সার্চ করুন"},
+    {"command": "popular", "description": "⭐ টপ ও জনপ্রিয় দেশসমূহ দেখুন"},
+    {"command": "recents", "description": "🕒 আপনার রিসেন্ট ব্যবহৃত দেশসমূহ"},
+    {"command": "help", "description": "📖 ব্যবহারের নিয়ম ও সাহায্য"},
+]
+
+
 
 def build_country_list_keyboard(page: int = 1, query: Optional[str] = None) -> Dict[str, any]:
     """Build inline keyboard for country browsing or search results."""
@@ -164,6 +174,14 @@ def run_bot(token: str):
     bot_info = me.get("result", {})
     username = bot_info.get("username", "UnknownBot")
     print(f"✅ Bot connected successfully: @{username}")
+
+    # Register Bot Command Menu
+    cmd_resp = bot.set_my_commands(BOT_COMMANDS)
+    if cmd_resp and cmd_resp.get("ok"):
+        print("📋 Menu commands registered successfully with Telegram!")
+    else:
+        print("⚠️ Could not register commands menu.")
+
     print("🚀 Listening for updates... Press Ctrl+C to stop.")
 
     offset = None
