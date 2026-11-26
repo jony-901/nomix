@@ -158,21 +158,54 @@ function renderCountryScreen(countryCode, gender = 'all', count = 5) {
   return { text, markup };
 }
 
-// Background Telegram Poller (Works on Hostinger Node.js automatically!)
+// Telegram Webhook Handler (Instant Response on Hostinger!)
+app.post('/api/telegram-webhook', async (req, res) => {
+  res.status(200).send('OK');
+  const update = req.body;
+  if (update) {
+    try {
+      await handleUpdate(update);
+    } catch (e) {
+      console.error('Webhook handle error:', e);
+    }
+  }
+});
+
+// Setup Webhook if DOMAIN or HOST URL provided
+async function setupWebhookAuto() {
+  const domain = process.env.APP_URL || process.env.RENDER_EXTERNAL_URL;
+  if (domain) {
+    const webhookUrl = `${domain.replace(/\/$/, '')}/api/telegram-webhook`;
+    console.log(`Setting Telegram Webhook to: ${webhookUrl}`);
+    const r = await callTelegram('setWebhook', { url: webhookUrl });
+    console.log('Webhook Setup Result:', r);
+  }
+}
+
+// Background Telegram Poller (Fallback when no webhook)
 let lastUpdateId = 0;
+let isPolling = false;
+
 async function pollTelegram() {
+  if (isPolling) return;
+  isPolling = true;
   try {
-    const res = await callTelegram('getUpdates', { offset: lastUpdateId + 1, timeout: 20 });
+    const res = await callTelegram('getUpdates', { offset: lastUpdateId + 1, timeout: 15 });
     if (res && res.ok && Array.isArray(res.result)) {
       for (const update of res.result) {
         lastUpdateId = update.update_id;
-        handleUpdate(update);
+        console.log(`[Telegram] Processing update ${update.update_id}`);
+        await handleUpdate(update);
       }
+    } else if (res && !res.ok) {
+      console.error('[Telegram API Error]:', res.description);
     }
   } catch (err) {
-    // Silent catch, will retry
+    console.error('[Poller Connection Error]:', err.message);
+  } finally {
+    isPolling = false;
+    setTimeout(pollTelegram, 1500);
   }
-  setTimeout(pollTelegram, 1000);
 }
 
 // Handle Incoming Telegram Updates
@@ -288,7 +321,8 @@ async function handleUpdate(u) {
 }
 
 // Start Server and Poller
-app.listen(PORT, () => {
+app.listen(PORT, async () => {
   console.log(`🚀 Nomix Web & Telegram Engine running on port ${PORT}`);
+  await setupWebhookAuto();
   pollTelegram();
 });
